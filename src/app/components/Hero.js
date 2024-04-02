@@ -10,7 +10,7 @@ const Hero = () => {
 
     return (
         <>
-            <div className='flex justify-center mx-6 mt-20 h-[90vh]'>
+            <div className='flex justify-center mx-6 mt-20 h-[65vh]'>
                 <div className='w-[40vw] ml-[180px]'>
                     <h2 className=' justify-center text-2xl font-serif pt-32 leading-10 roboto2'>
                         <span className='text-[#89d038] font-semibold'>  CREATE HAIR AND SKIN</span> <br /> CARE BRAND

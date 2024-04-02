@@ -68,3 +68,45 @@
   font-optical-sizing: auto;
 
 }
+.logos2 {
+
+  overflow: hidden;
+  /* padding: 60px 0; */
+  background: white;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos2:before,
+.logos2:after {
+  position: absolute;
+  top: 0;
+  /* width: 250px; */
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos2:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos2:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos2:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide2 {
+  display: flex;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide2 img {
+  height: 80px;
+  margin: 0 30px;
+}
