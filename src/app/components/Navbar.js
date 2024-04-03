@@ -40,11 +40,11 @@ const Navbar = () => {
 
                 <div>
 
-                   
+                   <Link href='/Contact'>
                     <button className='bg-[#89d038] text-white py-2 px-6 rounded-md hover:bg-green-800'>
                         Contact Us
                     </button>
-                  
+                    </Link>
                 </div>
             </div>
 

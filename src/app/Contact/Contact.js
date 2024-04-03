@@ -4,8 +4,8 @@ const Contact = () => {
   return (
    <>
    
-   <div className='ml-[30vw] p-8 pl-16 mt-10 space-y-8  border-t-[10px]   rounded-[30px] border border-[#89d038] max-w-[40vw] '>
-   
+   <div >
+   <form className='ml-[30vw] p-8 pl-16 mt-10 space-y-8  border-t-[10px]   rounded-[30px] border border-[#89d038] max-w-[40vw] '>
    <div>
     <h2 className='text-2xl font-semibold'>
         Request a Quote
@@ -80,7 +80,7 @@ const Contact = () => {
     </button>
    </div>
 
-
+   </form>
    </div>
    </>
   )
