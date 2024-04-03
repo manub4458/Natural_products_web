@@ -1,10 +1,13 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Navbar = () => {
     return (
         <>
             <div className='flex justify-around roboto2 py-6 shadow-lg'>
-                <div>
+               <Link href='/'>
+               
+               <div>
                     <img
                         src='/logo2.jpg'
                         alt='logo'
@@ -14,11 +17,16 @@ const Navbar = () => {
 
                     />
                 </div>
+               </Link>
 
                 <div className='flex list-none gap-x-8  pt-4'>
+                    <Link href='/'>
+                   
                     <li>
                         Home
                     </li>
+
+                    </Link>
                     <li>
                         Products
                     </li>
@@ -32,9 +40,11 @@ const Navbar = () => {
 
                 <div>
 
+                    <Link href='/Contact'>
                     <button className='bg-[#89d038] text-white py-2 px-6 rounded-md hover:bg-green-800'>
                         Contact Us
                     </button>
+                    </Link>
                 </div>
             </div>
 

@@ -6,6 +6,7 @@ import Whyus from './Whyus'
 import Section2 from './Section2'
 import Section3 from './Section3'
 import Clientels from './Clientels'
+import Customer from './Customer'
 
 const Landing = () => {
   return (
@@ -17,6 +18,7 @@ const Landing = () => {
    <Section2 />
    <Section3 />
    <Clientels />
+   <Customer />
    <Footer />
    </>
   )
