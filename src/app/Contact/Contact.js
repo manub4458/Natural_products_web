@@ -35,7 +35,7 @@ const Contact = () => {
                             type='text'
                             id='first Name'
                             placeholder='Email'
-                            className='outline-black border border-gray-700 rounded-md w-[31vw] p-3 px-4'
+                            className='outline-black border border-gray-700 rounded-md w-[530px] p-3 px-4'
                         />
                     </div>
                     <div className='flex'>
@@ -83,11 +83,11 @@ const Contact = () => {
                             id='enquiry'
                             placeholder='Enquiry'
                             co
-                            className='outline-black border border-gray-700 rounded-md w-[31vw] p-3 px-4'
+                            className='outline-black border border-gray-700 rounded-md w-[530px] p-3 px-4'
                         />
                     </div>
                     <div>
-                        <button className='bg-[#89d038] text-white py-3 w-[31vw] rounded-xl'>
+                        <button className='bg-[#89d038] text-white py-3 w-[530px] rounded-xl'>
                             Submit Request
                         </button>
                     </div>
