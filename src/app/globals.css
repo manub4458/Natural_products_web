@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body{
+  overflow-x: hidden;
+}
 
 @keyframes slide {
   from {
@@ -18,7 +22,7 @@
 .logos {
 
   overflow: hidden;
-  /* padding: 60px 0; */
+  padding: 60px 0;  
   background: white;
   white-space: nowrap;
   position: relative;

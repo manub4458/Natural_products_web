@@ -5,7 +5,7 @@ const Contact = () => {
         <>
 
             <div >
-                <form className='ml-[30vw] p-8 pl-16 mt-10 space-y-8   max-w-[40vw] '>
+                <form className='ml-[30vw] p-8 pl-16 mt-10 space-y-8  my-10 max-w-[40vw] '>
                     <div>
                         <h2 className='text-2xl font-semibold'>
                             Request a Quote

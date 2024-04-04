@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 const Hero = () => {
     useEffect(() => {
         const copy = document.querySelector('.logos-slide').cloneNode(true);
-        // document.querySelector('.logos').appendChild(copy);
+        // document.querySelector('.logos').appendChild(copy); 
     }, []);
 
     return (
