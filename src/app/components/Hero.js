@@ -16,7 +16,7 @@ const Hero = () => {
                         <span className='text-[#89d038] font-semibold'>  CREATE SKIN AND HAIR</span> <br /> CARE BRAND
                     </h2>
                     <p className='w-[30vw]  leading-8 pt-4 roboto2'>
-                    Step into our world of skincare and haircare wonders! Unleash your brand's beauty with us—it's where fun meets fabulous. Let's make your dream products a reality!
+                    Step into our world of skincare and haircare wonders! Unleash your brands beauty with us—its where fun meets fabulous. Lets make your dream products a reality!
                              </p>
                     <input
                         type='email'

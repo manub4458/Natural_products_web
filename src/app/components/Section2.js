@@ -11,7 +11,7 @@ const Section2 = () => {
        </h4>
    <p className='mt-6'>
    Explore our range of 70+ skincare must-haves, ready to make your brand  <br />
-   shine. From  silky serums to gentle cleansers, we've got your skincare <br /> needs covered.
+   shine. From  silky serums to gentle cleansers, we have got your skincare <br /> needs covered.
    </p>
    <div className='flex gap-x-1'>
                    {/* <p className='py-4 text-[#89d038]'>

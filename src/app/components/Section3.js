@@ -20,7 +20,7 @@ const Section3 = () => {
           </h4>
           <p className='mt-6'>
             Explore our collection of 25+ haircare essentials to elevate your <br />
-            brand. From moisturizing shampoos to revitalizing Hair masks, <br /> we've got you covered.
+            brand. From moisturizing shampoos to revitalizing Hair masks, <br /> we have got you covered.
 
           </p>
           <Link href='/Contact'>
