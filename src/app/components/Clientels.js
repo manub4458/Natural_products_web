@@ -15,24 +15,20 @@ const Clientels = () => {
 </div>
 <div className="logos2 w-[100vw] my-20">
                     <div className="logos-slide2 ">
-                        <img src="/3m.svg" alt="3M Logo" />
-                        <img src="/barstool-store.svg" alt="3M Logo" />
-                        <img src="/budweiser.svg" alt="3M Logo" />
-                        <img src="/buzzfeed.svg" alt="3M Logo" />
-                        <img src="/forbes.svg" alt="3M Logo" />
-                        <img src="/macys.svg" alt="3M Logo" />
-                        <img src="/menshealth.svg" alt="3M Logo" />
-                        <img src="/mrbeast.svg" alt="3M Logo" />
-                        <img src="/mrbeast.svg" alt="3M Logo" />
-
-
-
-
-
-
-
-                       
-
+                        <img src="/c1.jpg" alt="3M Logo" />
+                        <img src="/c2.jpg" alt="3M Logo" />
+                        <img src="/c3.jpg" alt="3M Logo" />
+                        <img src="/c4.jpg" alt="3M Logo" />
+                        <img src="/c5.jpg" alt="3M Logo" />
+                        <img src="/c6.jpg" alt="3M Logo" />
+                        <img src="/c7.jpg" alt="3M Logo" />
+                        <img src="/c1.jpg" alt="3M Logo" />
+                        <img src="/c2.jpg" alt="3M Logo" />
+                        <img src="/c3.jpg" alt="3M Logo" />
+                        <img src="/c4.jpg" alt="3M Logo" />
+                        <img src="/c5.jpg" alt="3M Logo" />
+                        <img src="/c6.jpg" alt="3M Logo" />
+                        <img src="/c7.jpg" alt="3M Logo" />
                     </div>
                 </div>
 </>

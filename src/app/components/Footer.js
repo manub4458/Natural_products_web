@@ -1,6 +1,19 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
+import Contact from '../Contact/Contact';
+import ContactForm from './Contactform';
 
 const Footer = () => {
+    const [isContactFormOpen, setIsContactFormOpen] = useState(false);
+
+  const openContactForm = () => {
+    setIsContactFormOpen(true);
+  };
+
+  const closeContactForm = () => {
+    setIsContactFormOpen(false);
+  };
+
     return (
         <>
 
@@ -37,7 +50,11 @@ const Footer = () => {
       </div>
 
       <div className=''>
-        <button className='leading-8 bg-white p-10 h-[150px] border border-black px-16 rounded-xl '>
+        <button className='leading-8 bg-white p-10 h-[150px] border border-black px-16 rounded-xl 
+        
+        '
+        onClick={openContactForm}
+        >
            <div className='flex gap-x-4'>
            <img 
             src='/request.gif'
@@ -51,7 +68,10 @@ const Footer = () => {
            </div>
           
         </button>
+      
       </div>
+      {isContactFormOpen && <ContactForm onClose={closeContactForm} />}
+
 
       <div className=''>
         <button className='leading-8 bg-white p-10 h-[150px] border border-black px-20 rounded-md '>

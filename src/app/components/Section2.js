@@ -7,24 +7,28 @@ const Section2 = () => {
 
    <div className='mt-6'>
        <h4 className='roboto2 font-semibold'>
-        CREATE BEAUTY PRODUCTS
+        CREATE SKINCARE PRODUCTS
        </h4>
    <p className='mt-6'>
-   Private label high-quality beauty product to build your brand and <br />
-   dropship directly to your customers.
+   Explore our range of 70+ skincare must-haves, ready to make your brand  <br />
+   shine. From  silky serums to gentle cleansers, we've got your skincare <br /> needs covered.
    </p>
    <div className='flex gap-x-1'>
-                   <p className='py-4 text-[#89d038]'>
+                   {/* <p className='py-4 text-[#89d038]'>
                         Get started 
-                    </p>
-                    <img 
+                    </p> */}
+
+                    <button className='bg-[#89d038] text-white p-2 text-[12px] rounded-lg mt-4'>
+                      Our Range
+                    </button>
+                    {/* <img 
                     src='/arrow.png'
                     alt='Arrow'
                     width={30}
                     height={30}
                     className='text-[#89d038] h-[20px] mt-[19px]'
 
-                    />
+                    /> */}
                    </div>
       </div>
       <div>

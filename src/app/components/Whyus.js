@@ -10,8 +10,9 @@ const Whyus = () => {
     </h2>
 
     <p className='text-center leading-8'>
-        Create Beauty products with your logo, dropship beauty items, and have them shipped directly to your <br/>
-      customers all at discounted prices for optimal prices for optimal profit margins
+    Choose us because we tailor skincare and haircare products just for you. Our expertise ensures top-quality formulations  <br/>
+     that match your brand's vision. With us, you get personalized solutions and reliable service every  <br />
+      step of the way. Trust us to bring your skincare and haircare dreams to life.
     </p>
    </div>
    </>

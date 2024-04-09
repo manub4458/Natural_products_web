@@ -7,13 +7,26 @@ import Section2 from './Section2'
 import Section3 from './Section3'
 import Clientels from './Clientels'
 import Customer from './Customer'
+import Mobnav from './Mobnav'
 
 const Landing = () => {
   return (
    <>
-   <Navbar/>
-  
-   <Hero />
+ {/* <div className='hidden lg:inline-block w-full'>
+ <Navbar/>
+ </div> */}
+
+ <Navbar/>
+ {/* <div className="select-none landing_conatiner h-screen ">
+		
+				<div className="absolute  lg:hidden w-screen  md:inline-block">
+					<Mobnav />
+				</div>
+				<div className="absolute top-20 z-[1] w-screen">
+				
+				</div>
+			</div> */}
+      	<Hero />
    <Whyus />
    <Section2 />
    <Section3 />
