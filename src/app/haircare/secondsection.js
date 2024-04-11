@@ -13,7 +13,7 @@ const SecondSection = () => {
         <div>
 
             <p className='text-center mx-20'>
-            Embark on a journey with NatureExpert Ayurvedic Pvt Ltd , where we pride ourselves on crafting haircare solutions without any harsh chemicals. Our products are purely Ayurvedic, harnessing the power of nature's herbs and botanicals. With a GMP certificate ensuring quality, we maintain strict hygiene standards to deliver safe and effective products for your haircare needs."
+            Embark on a journey with NatureExpert Ayurvedic Pvt Ltd , where we pride ourselves on crafting haircare solutions without any harsh chemicals. Our products are purely Ayurvedic, harnessing the power of natures herbs and botanicals. With a GMP certificate ensuring quality, we maintain strict hygiene standards to deliver safe and effective products for your haircare needs.
 
             </p>
         </div>

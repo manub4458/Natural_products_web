@@ -13,8 +13,8 @@ const SecondSection = () => {
         <div>
 
             <p className='text-center mx-20'>
-            Discover our skincare products, all made with pure Ayurvedic ingredients. At NatureExpert Ayurvedic Pvt Ltd, we pride ourselves on our chemical-free formulations. Rest assured, our products are gentle on your skin and the environment. Plus, we're proud to hold a GMP certificate, ensuring the highest standards of quality and hygiene in our manufacturing process. Experience the goodness of nature without any compromise on safety and effectiveness.
-Simply fill out the form with your requirements, and we'll create the perfect product for you.
+            Discover our skincare products, all made with pure Ayurvedic ingredients. At NatureExpert Ayurvedic Pvt Ltd, we pride ourselves on our chemical-free formulations. Rest assured, our products are gentle on your skin and the environment. Plus, we arere proud to hold a GMP certificate, ensuring the highest standards of quality and hygiene in our manufacturing process. Experience the goodness of nature without any compromise on safety and effectiveness.
+Simply fill out the form with your requirements, and we will create the perfect product for you.
 
             </p>
         </div>
