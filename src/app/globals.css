@@ -54,11 +54,12 @@ body{
 
 .logos-slide {
   display: flex;
-  animation: 35s slide infinite linear;
+  animation: 25s slide infinite linear;
 }
 
 .logos-slide img {
-  height: 500px;
+  height: 400px;
+  width: 220px;
   margin: 0 30px;
 }
 
@@ -101,7 +102,7 @@ body{
   background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
 }
 
-.logos2:hover .logos-slide {
+.logos2:hover .logos-slide2 {
   animation-play-state: paused;
 }
 
@@ -111,7 +112,8 @@ body{
 }
 
 .logos-slide2 img {
-  height: 80px;
- 
+  height: 140px;
+  width: 200px;
+
   margin: 0 30px;
 }

@@ -10,33 +10,31 @@ const Customer = () => {
     </div>
     <div className="logos2 w-[100vw] my-20">
                         <div className="logos-slide2 ">
-                            <img src="/ce1.jpg" alt="3M Logo" />
-                            <img src="/ce2.jpg" alt="3M Logo" />
-                            <img src="/ce3.jpg" alt="3M Logo" />
-                            <img src="/ce4.jpg" alt="3M Logo" />
-                            <img src="/ce5.jpg" alt="3M Logo" />
-                            <img src="/ce6.jpg" alt="3M Logo" />
-                            <img src="/ce7.jpg" alt="3M Logo" />
-                            <img src="/ce8.jpg" alt="3M Logo" />
-                            <img src="/ce9.jpg" alt="3M Logo" />
-                            <img src="/ce1.jpg" alt="3M Logo" />
-                            <img src="/ce2.jpg" alt="3M Logo" />
-                            <img src="/ce3.jpg" alt="3M Logo" />
-                            <img src="/ce4.jpg" alt="3M Logo" />
-                            <img src="/ce5.jpg" alt="3M Logo" />
-                            <img src="/ce6.jpg" alt="3M Logo" />
-                            <img src="/ce7.jpg" alt="3M Logo" />
-                            <img src="/ce8.jpg" alt="3M Logo" />
-                            <img src="/ce9.jpg" alt="3M Logo" />
-                            <img src="/ce1.jpg" alt="3M Logo" />
-                            <img src="/ce2.jpg" alt="3M Logo" />
-                            <img src="/ce3.jpg" alt="3M Logo" />
-                            <img src="/ce4.jpg" alt="3M Logo" />
-                            <img src="/ce5.jpg" alt="3M Logo" />
-                            <img src="/ce6.jpg" alt="3M Logo" />
-                            <img src="/ce7.jpg" alt="3M Logo" />
-                            <img src="/ce8.jpg" alt="3M Logo" />
-                            <img src="/ce9.jpg" alt="3M Logo" />
+                            <img src="/cer1.jpg" alt="3M Logo" />
+                            <img src="/cer2.jpg" alt="3M Logo" />
+                            <img src="/cer3.jpg" alt="3M Logo" />
+                            <img src="/cer4.jpg" alt="3M Logo" />
+                            <img src="/cer5.jpg" alt="3M Logo" />
+                            <img src="/cer6.jpg" alt="3M Logo" />
+                            <img src="/cer7.jpg" alt="3M Logo" />
+                            <img src="/cer8.jpg" alt="3M Logo" />
+                            <img src="/cer1.jpg" alt="3M Logo" />
+                            <img src="/cer2.jpg" alt="3M Logo" />
+                            <img src="/cer3.jpg" alt="3M Logo" />
+                            <img src="/cer4.jpg" alt="3M Logo" />
+                            <img src="/cer5.jpg" alt="3M Logo" />
+                            <img src="/cer6.jpg" alt="3M Logo" />
+                            <img src="/cer7.jpg" alt="3M Logo" />
+                            <img src="/cer8.jpg" alt="3M Logo" />
+                            <img src="/cer1.jpg" alt="3M Logo" />
+                            <img src="/cer2.jpg" alt="3M Logo" />
+                            <img src="/cer3.jpg" alt="3M Logo" />
+                            <img src="/cer4.jpg" alt="3M Logo" />
+                            <img src="/cer5.jpg" alt="3M Logo" />
+                            <img src="/cer6.jpg" alt="3M Logo" />
+                            <img src="/cer7.jpg" alt="3M Logo" />
+                            <img src="/cer8.jpg" alt="3M Logo" />
+                           
 
 
                             {/* <img src="/barstool-store.svg" alt="3M Logo" />

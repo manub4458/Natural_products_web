@@ -7,7 +7,7 @@ const Section3 = () => {
 
         <div>
           <img
-            src='/beauty2.webp'
+            src='/haircare.jpg'
             alt='Beauty'
             width={350}
             height={200}

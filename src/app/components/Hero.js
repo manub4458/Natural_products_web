@@ -10,7 +10,7 @@ const Hero = () => {
 
     return (
         <>
-            <div className='flex justify-center mx-6 mt-20 h-[65vh] '>
+            <div className='flex justify-center mx-6 mt-20 h-[55vh] '>
                 <div className='w-[40vw] ml-[180px] '>
                     <h2 className=' justify-center text-2xl font-serif pt-32 leading-10 roboto2'>
                         <span className='text-[#89d038] font-semibold'>  CREATE SKIN AND HAIR</span> <br /> CARE BRAND
@@ -33,12 +33,12 @@ const Hero = () => {
 
                 <div className="logos w-[55vw]">
                     <div className="logos-slide ">
-                        <img src="/product1.png" alt="3M Logo" />
-                        <img src="/product1.png" alt="3M Logo" />
-                        <img src="/product1.png" alt="3M Logo" />
-                        <img src="/product1.png" alt="3M Logo" />
-                        <img src="/product1.png" alt="3M Logo" />
-                        <img src="/product1.png" alt="3M Logo" />
+                        <img src="/hero1.png" alt="3M Logo" />
+                        <img src="/hero2.png" alt="3M Logo" />
+                        <img src="/hero6.jpeg" alt="3M Logo" />
+                        <img src="/hero4.jpeg" alt="3M Logo" />
+                        <img src="/hero5.jpeg" alt="3M Logo" />
+                        <img src="/hero7.jpeg" alt="3M Logo" />
                         <img src="/product1.png" alt="3M Logo" />
                         <img src="/product1.png" alt="3M Logo" />
 

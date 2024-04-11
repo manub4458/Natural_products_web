@@ -17,7 +17,7 @@ const Footer = () => {
     return (
         <>
 
-           <div className='bg-[#89d038] py-6'>
+           <div className='py-6'>
            <div className='space-y-4'>
             <h2 className='text-center font-semibold text-3xl roboto2'>
                 REACH OUT TO US
@@ -31,7 +31,7 @@ const Footer = () => {
    
    <div className='flex justify-around mt-6 '>
       <div className=''>
-        <button className='leading-8 bg-white p-10 h-[150px] border border-black px-20 rounded-md '>
+        <button className='leading-8 bg-white p-10 h-[200px] w-[350px]  px-20 rounded-md hover:bg-[#eb5575] hover:text-white '>
            <div className='flex gap-x-5'>
            <img 
             src='/phone.gif'
@@ -44,13 +44,14 @@ const Footer = () => {
             </p>
            </div>
            <a>
-            +91-7668612888
+            +91-9105507196
+
            </a>
         </button>
       </div>
 
       <div className=''>
-        <button className='leading-8 bg-white p-10 h-[150px] border border-black px-16 rounded-xl 
+        <button className='leading-8 bg-white p-10 h-[200px] w-[350px]   px-16 rounded-xl hover:bg-[#eb5575] hover:text-white 
         
         '
         onClick={openContactForm}
@@ -74,7 +75,7 @@ const Footer = () => {
 
 
       <div className=''>
-        <button className='leading-8 bg-white p-10 h-[150px] border border-black px-20 rounded-md '>
+        <button className=' bg-white p-10 h-[200px] w-[350px]  px-20 rounded-md hover:bg-[#eb5575] hover:text-white  '>
            <div className='flex gap-x-5'>
            <img 
             src='/address.gif'
@@ -86,8 +87,8 @@ const Footer = () => {
                 Address
             </p>
            </div>
-           <a>
-            +91-7668612888
+           <a className='text-[10px] '>
+           Plot no. 21 & 22 siddhi vinayak phase <br />  IV IP2 industrial area salempur <br />  haridwar uttrakhand 249402
            </a>
         </button>
       </div>
@@ -95,7 +96,7 @@ const Footer = () => {
     
    
            </div>
-           <div className='bg-[#212121] text-white'>
+           <div className=''>
         <p className='text-center p-2'>
         Copyright @2024 All rights reserved
         </p>
