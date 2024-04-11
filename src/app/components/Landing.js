@@ -8,6 +8,7 @@ import Section3 from './Section3'
 import Clientels from './Clientels'
 import Customer from './Customer'
 import Mobnav from './Mobnav'
+import DropdownMenu from './DropdownMenu'
 
 const Landing = () => {
   return (
@@ -26,6 +27,7 @@ const Landing = () => {
 				
 				</div>
 			</div> */}
+     
       	<Hero />
    <Whyus />
    <Section2 />

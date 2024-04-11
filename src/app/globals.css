@@ -59,7 +59,7 @@ body{
 
 .logos-slide img {
   height: 400px;
-  width: 220px;
+  /* width: 0px; */
   margin: 0 30px;
 }
 
@@ -116,4 +116,8 @@ body{
   width: 200px;
 
   margin: 0 30px;
+}
+.bg{
+  background: url('/skincare.jpg') no-repeat;
+  background-size: cover;
 }

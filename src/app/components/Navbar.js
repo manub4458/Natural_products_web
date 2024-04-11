@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import DropdownMenu from './DropdownMenu'
 
 const Navbar = () => {
     return (
@@ -28,7 +29,7 @@ const Navbar = () => {
 
                     </Link>
                     <li>
-                        Products
+                       <DropdownMenu />
                     </li>
                     <li>
                         Brands
