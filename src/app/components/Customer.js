@@ -3,13 +3,13 @@ import React from 'react'
 const Customer = () => {
   return (
     <>
-    <div>
-        <h2 className='text-center font-bold text-2xl mt-16'>
+    <div className='bg-[#fafafa]'>
+        <h2 className='text-center font-bold roboto2 text-2xl mt-16'>
         Certifications
         </h2>
     </div>
-    <div className="logos2 w-[100vw] my-20">
-                        <div className="logos-slide2 ">
+    <div className="logos2 w-[100vw] my-20 bg-[#fafafa]">
+                        <div className="logos-slide3 ">
                             <img src="/cer1.jpg" alt="3M Logo" />
                             <img src="/cer2.jpg" alt="3M Logo" />
                             <img src="/cer3.jpg" alt="3M Logo" />

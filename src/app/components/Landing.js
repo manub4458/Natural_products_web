@@ -9,6 +9,8 @@ import Clientels from './Clientels'
 import Customer from './Customer'
 import Mobnav from './Mobnav'
 import DropdownMenu from './DropdownMenu'
+import Section4 from './Section4'
+import Section5 from './Section5'
 
 const Landing = () => {
   return (
@@ -32,6 +34,8 @@ const Landing = () => {
    <Whyus />
    <Section2 />
    <Section3 />
+   <Section4 />
+   <Section5 />
    <Clientels />
    <Customer />
    <Footer />

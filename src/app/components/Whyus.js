@@ -4,12 +4,12 @@ const Whyus = () => {
   return (
    <>
    
-   <div className='my-8'>
+   <div className='my-8 bg-[#fafafa]'>
     <h2 className='text-center font-semibold roboto2 text-2xl py-4'>
           Why Us?
     </h2>
 
-    <p className='text-center leading-8'>
+    <p className='text-center leading-7 text-base Avenirltstdroman'>
     Choose us because we tailor skincare and haircare products just for you. Our expertise ensures top-quality formulations  <br/>
      that match your brands vision. With us, you get personalized solutions and reliable service every  <br />
       step of the way. Trust us to bring your skincare and haircare dreams to life.

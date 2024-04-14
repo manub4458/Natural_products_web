@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -112,7 +113,7 @@ body{
 }
 
 .logos-slide2 img {
-  height: 140px;
+  height: 200px;
   width: 200px;
 
   margin: 0 30px;
@@ -120,4 +121,21 @@ body{
 .bg{
   background: url('/skincare.jpg') no-repeat;
   background-size: cover;
+}
+.lato {
+  font-family:  sans-serif;
+ 
+}
+.logos-slide3 {
+  display: flex;
+  animation: 35s slide infinite linear;
+}
+.logos-slide3 img {
+  height: 310px;
+  width: 400px;
+
+  margin: 0 30px;
+}
+.logos2:hover .logos-slide3 {
+  animation-play-state: paused;
 }

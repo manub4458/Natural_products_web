@@ -1,15 +1,16 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Section2 = () => {
   return (
    <>
-   <div className='flex justify-center gap-x-52 mt-20'>
+   <div className='flex justify-center gap-x-52 mt-20 bg-[#fafafa]'>
 
    <div className='mt-6'>
-       <h4 className='roboto2 font-semibold'>
+       <h4 className='roboto2 text-2xl font-semibold'>
         CREATE SKINCARE PRODUCTS
        </h4>
-   <p className='mt-6'>
+   <p className='mt-6 lato'>
    Explore our range of 70+ skincare must-haves, ready to make your brand  <br />
    shine. From  silky serums to gentle cleansers, we have got your skincare <br /> needs covered.
    </p>
@@ -17,10 +18,12 @@ const Section2 = () => {
                    {/* <p className='py-4 text-[#89d038]'>
                         Get started 
                     </p> */}
-
-                    <button className='bg-[#89d038] text-white p-2 text-[12px] rounded-lg mt-4'>
+<Link href='/skincare' >
+                    <button className='bg-[#db5f7a] text-white p-2 text-[12px] rounded-lg mt-4 lato'>
                       Our Range
                     </button>
+
+                    </Link>
                     {/* <img 
                     src='/arrow.png'
                     alt='Arrow'

@@ -10,12 +10,12 @@ const Hero = () => {
 
     return (
         <>
-            <div className='flex justify-center mx-6 mt-20 h-[55vh] '>
+            <div className='flex justify-center mx-6 my-20 h-[60vh] '>
                 <div className='w-[40vw] ml-[180px] '>
-                    <h2 className=' justify-center text-2xl font-serif pt-32 leading-10 roboto2'>
-                        <span className='text-[#89d038] font-semibold'>  CREATE SKIN AND HAIR</span> <br /> CARE BRAND
+                    <h2 className=' justify-center text-3xl font-serif pt-32 leading-10 roboto2'>
+                        <span className='text-[#db5f7a] font-semibold'>  CREATE SKIN AND HAIR <br /> CARE BRAND </span>
                     </h2>
-                    <p className='w-[30vw]  leading-8 pt-4 roboto2'>
+                    <p className='w-[28vw]  leading-8 pt-4 text-lg lato'>
                     Step into our world of skincare and haircare wonders! Unleash your brands beauty with us—its where fun meets fabulous. Lets make your dream products a reality!
                              </p>
                     <input
@@ -25,7 +25,7 @@ const Hero = () => {
                         className=' outline-none focus:border focus:border-blue-300 rounded-md  py-3 px-8 mt-4 bg-slate-100/20 '
                     />
                   <Link href='/Contact'>
-                  <button className='py-3 px-8 ml-4 bg-[#89d038] text-white rounded-md'>
+                  <button className='py-3 px-8 ml-4 bg-[#db5f7a] text-white rounded-md lato'>
                         Get started
                     </button>
                   </Link>

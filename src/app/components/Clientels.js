@@ -8,12 +8,12 @@ const Clientels = () => {
 }, []);
   return (
 <>
-<div>
-    <h2 className='text-center font-bold text-2xl mt-16'>
+<div className='bg-[#fafafa]'>
+    <h2 className='text-center font-bold roboto2 text-2xl mt-16'>
     Our Clientele
     </h2>
 </div>
-<div className="logos2 w-[100vw] my-20">
+<div className="logos2 w-[100vw] my-20 bg-[#fafafa]">
                     <div className="logos-slide2 ">
                         <img src="/c1.jpg" alt="3M Logo" />
                         <img src="/c2.jpg" alt="3M Logo" />
