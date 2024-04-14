@@ -12,7 +12,7 @@ const Section4 = () => {
        </h4>
    <p className='mt-6 lato'>
    Enjoy high profit margins with our transparent pricing model. We  <br />
-   only charge 20-30% of the product's cost, ensuring maximum  <br /> returns for your brand.
+   only charge 20-30% of the products cost, ensuring maximum  <br /> returns for your brand.
    </p>
    <Link href='/Contact' >
    <div className='flex gap-x-1'>

@@ -20,8 +20,8 @@ const Section5 = () => {
           </h4>
           <p className='mt-6 lato'>
           Leave the hassle behind—our one-stop-shop solution covers it all. From <br />
-           sourcing bottles to designing labels, we've got you covered. No prior <br />
-            materials needed, just bring your brand vision, and we'll handle <br /> the rest.
+           sourcing bottles to designing labels, we haveve got you covered. No prior <br />
+            materials needed, just bring your brand vision, and we will handle <br /> the rest.
           </p>
           <Link href='/Contact'>
             <div className='flex gap-x-1'>
