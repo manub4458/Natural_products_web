@@ -31,7 +31,7 @@ const Dive = () => {
          </li>
 
          <li>
-            3. <strong>Hair Mask:  </strong> Provides deep conditioning treatment, repairing and restoring hair's strength, shine, and elasticity.
+            3. <strong>Hair Mask:  </strong> Provides deep conditioning treatment, repairing and restoring hairs strength, shine, and elasticity.
          </li>
          <li>
             4. <strong>Hair Oil:</strong> Nourishes and moisturizes the scalp and hair, promoting growth, shine, and overall health.
