@@ -9,8 +9,10 @@ const Customer = () => {
         </h2>
     </div>
     <div className="logos2 w-[100vw] my-20 bg-[#fafafa]">
-                        <div className="logos-slide3 ">
-                            <img src="/cer1.jpg" alt="3M Logo" />
+                        <div className="logos-slide3 overlay ">
+                            <img src="/cer1.jpg" alt="3M Logo" 
+                             
+                            />
                             <img src="/cer2.jpg" alt="3M Logo" />
                             <img src="/cer3.jpg" alt="3M Logo" />
                             <img src="/cer4.jpg" alt="3M Logo" />

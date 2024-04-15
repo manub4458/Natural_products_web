@@ -133,11 +133,15 @@ body{
 .logos-slide3 img {
   height: 310px;
   width: 400px;
+  transition: transform 0.5s;
 
   margin: 0 30px;
 }
 .logos-slide3 img:hover {
- transition: all;
+ transition: all 0.3s ;
+ background: blue;
+ opacity: 1;
+height: 380px;
 }
 .logos2:hover .logos-slide3 {
   animation-play-state: paused;
