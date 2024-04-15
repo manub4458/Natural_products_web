@@ -55,7 +55,7 @@ body{
 
 .logos-slide {
   display: flex;
-  animation: 25s slide infinite linear;
+  animation: 45s slide infinite linear;
 }
 
 .logos-slide img {
@@ -136,6 +136,13 @@ body{
 
   margin: 0 30px;
 }
+.logos-slide3 img:hover {
+ transition: all;
+}
 .logos2:hover .logos-slide3 {
   animation-play-state: paused;
+ 
+}
+li{
+  list-style: none;
 }
