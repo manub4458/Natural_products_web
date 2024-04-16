@@ -3,11 +3,13 @@ import React, { useEffect } from 'react'
 
 const Clientels = () => {
   useEffect(() => {
-    const copy = document.querySelector('.logos-slide').cloneNode(true);
-    document.querySelector('.logos').appendChild(copy);
+    // const copy = document.querySelector('.logos-slide').cloneNode(true);
+    // document.querySelector('.logos').appendChild(copy);
 }, []);
   return (
 <>
+<div id='clientels'>
+
 <div className='bg-[#fafafa]'>
     <h2 className='text-center font-bold roboto2 text-2xl mt-16'>
     Our Clientele
@@ -31,6 +33,7 @@ const Clientels = () => {
                         <img src="/c7.jpg" alt="3M Logo" />
                     </div>
                 </div>
+</div>
 </>
   )
 }

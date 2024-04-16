@@ -2,11 +2,13 @@
 import { useEffect } from 'react';
 import Link from 'next/link'
 
+import Carousels from './Carousel';
+
 const Hero = () => {
-    useEffect(() => {
-        const copy = document.querySelector('.logos-slide').cloneNode(true);
-        // document.querySelector('.logos').appendChild(copy); 
-    }, []);
+    // useEffect(() => {
+    //     const copy = document.querySelector('.logos-slide').cloneNode(true);
+    //     // document.querySelector('.logos').appendChild(copy); 
+    // }, []);
 
     return (
         <>
@@ -31,7 +33,7 @@ const Hero = () => {
                   </Link>
                 </div>
 
-                <div className="logos w-[55vw]">
+                {/* <div className="logos w-[55vw]">
                     <div className="logos-slide ">
                         <img src="/hero1.png" alt="3M Logo" />
                         <img src="/hero2.png" alt="3M Logo" />
@@ -43,6 +45,9 @@ const Hero = () => {
                         <img src="/product1.png" alt="3M Logo" />
 
                     </div>
+                </div> */}
+                <div className='w-[55vw]'>
+                  <Carousels />
                 </div>
             </div>
         </>

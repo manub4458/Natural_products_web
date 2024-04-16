@@ -3,6 +3,7 @@ import React from 'react'
 const Customer = () => {
   return (
     <>
+    <div id='certification'>
     <div className='bg-[#fafafa]'>
         <h2 className='text-center font-bold roboto2 text-2xl mt-16'>
         Certifications
@@ -58,6 +59,7 @@ const Customer = () => {
     
                         </div>
                     </div>
+    </div>
     </>
   )
 }
