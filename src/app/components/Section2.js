@@ -4,13 +4,13 @@ import React from 'react'
 const Section2 = () => {
   return (
    <>
-   <div className='flex justify-center gap-x-52 mt-20 bg-[#fafafa]'>
+   <div className='flex justify-around mt-20 bg-[#fafafa]'>
 
    <div className='mt-6'>
-       <h4 className='roboto2 text-2xl font-semibold'>
+       <h4 className='armen text-xl font-semibold'>
         CREATE SKINCARE PRODUCTS
        </h4>
-   <p className='mt-6 lato'>
+   <p className='mt-6 armen'>
    Explore our range of 70+ skincare must-haves, ready to make your brand  <br />
    shine. From  silky serums to gentle cleansers, we have got your skincare <br /> needs covered.
    </p>
@@ -19,7 +19,7 @@ const Section2 = () => {
                         Get started 
                     </p> */}
 <Link href='/skincare' >
-                    <button className='bg-[#db5f7a] text-white p-2 text-[12px] rounded-lg mt-4 lato'>
+                    <button className='bg-[#db5f7a] text-white p-2 text-[12px] rounded-lg mt-4 armen'>
                       Our Range
                     </button>
 

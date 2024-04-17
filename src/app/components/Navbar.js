@@ -1,12 +1,28 @@
-import Link from 'next/link'
+"use client"
+// import Link from 'next/link'
 import React from 'react'
 import DropdownMenu from './DropdownMenu'
 import Drop from './Drop'
+import { Link } from "react-scroll";
+import Home from './Home';
+import DropdownMenus from './DropdownMenu';
+import Cont from './Cont';
 
 const Navbar = () => {
+    const scrollToRef = (ref) => {
+        if (ref.current) {
+            window.scrollTo({
+                top: ref.current.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    };
+
+    const section1Ref = React.useRef(null);
+    const section2Ref = React.useRef(null);
     return (
         <>
-            <div className='flex justify-around roboto2 py-6 shadow-lg'>
+            <div className='flex justify-around  py-6 shadow-lg'>
                <Link href='/'>
                
                <div>
@@ -21,38 +37,29 @@ const Navbar = () => {
                 </div>
                </Link>
 
-                <div className='flex list-none gap-x-8  pt-4'>
-                    <Link href='/'>
-                   
+                <div className='flex list-none gap-x-8 font-medium  pt-4 inter' >
+                   <li>
+                    <Home />
+                   </li>
                     <li>
-                        Home
-                    </li>
-
-                    </Link>
-                    <li>
-                       {/* <DropdownMenu /> */}
+                       {/* <DropdownMenus /> */}
                        <Drop />
                     </li>
-                   <Link href='#clientels'>
-                   <li>
-                        Brands
-                    </li>
-                   </Link>
+                  
+                    <li
+                    className='cursor-pointer'
+                    ><Link to="section1" smooth={true} duration={500}>Brand</Link></li>
 
-                   <Link href='#certification'>
-                    <li>
-                        Certification
-                    </li>
-                    </Link>
+                  
+<li
+                    className='cursor-pointer'
+                    ><Link to="section2" smooth={true} duration={500}>Certifications</Link></li>
+            
                 </div>
 
                 <div>
 
-                   <Link href='/Contact'>
-                    <button className='bg-[#db5f7a] text-white py-2 px-6 rounded-md hover:bg-[#c74762]'>
-                        Contact Us
-                    </button>
-                    </Link>
+                  <Cont />
                 </div>
             </div>
 

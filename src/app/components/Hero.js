@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import Link from 'next/link'
 
 import Carousels from './Carousel';
+import Swipers from './Swiper';
 
 const Hero = () => {
     // useEffect(() => {
@@ -12,22 +13,22 @@ const Hero = () => {
 
     return (
         <>
-            <div className='flex justify-center mx-6 my-20 h-[60vh] '>
-                <div className='w-[40vw] ml-[180px] '>
-                    <h2 className=' justify-center text-3xl font-serif pt-32 leading-10 roboto2'>
+            <div className='flex justify-around mb-20 h-[60vh] my-20 items-center '>
+                <div className=' '>
+                    <h2 className=' justify-center text-3xl font-serif leading-10 armen'>
                         <span className='text-[#db5f7a] font-semibold'>  CREATE SKIN AND HAIR <br /> CARE BRAND </span>
                     </h2>
-                    <p className='w-[28vw]  leading-8 pt-4 text-lg lato'>
+                    <p className='w-[28vw]  leading-8 pt-4 text-lg armen'>
                     Step into our world of skincare and haircare wonders! Unleash your brands beauty with us—its where fun meets fabulous. Lets make your dream products a reality!
                              </p>
                     <input
                         type='email'
                         id='email'
                         placeholder='Your email Address..'
-                        className=' outline-none focus:border focus:border-blue-300 rounded-md  py-3 px-8 mt-4 bg-slate-100/20 '
+                        className=' outline-none focus:border armen focus:border-blue-300 rounded-md  py-3 px-8 mt-4 bg-slate-100/20 '
                     />
                   <Link href='/Contact'>
-                  <button className='py-3 px-8 ml-4 bg-[#db5f7a] text-white rounded-md lato'>
+                  <button className='py-3 px-8 ml-4 bg-[#db5f7a] text-white rounded-md armen'>
                         Get started
                     </button>
                   </Link>
@@ -46,8 +47,11 @@ const Hero = () => {
 
                     </div>
                 </div> */}
-                <div className='w-[55vw]'>
+                <div className='w-[50vw] '>
                   <Carousels />
+                  {/* <Swipers /> */}
+
+                  
                 </div>
             </div>
         </>

@@ -4,19 +4,19 @@ import React from 'react'
 const Section4 = () => {
   return (
    <>
-   <div className='flex justify-center gap-x-52 mt-20 bg-[#fafafa]'>
+   <div className='flex justify-around mt-20 bg-[#fafafa]'>
 
    <div className='mt-6'>
-       <h4 className='roboto2 text-2xl font-semibold'>
+       <h4 className='armen text-xl font-semibold'>
         HIGH MARGINS
        </h4>
-   <p className='mt-6 lato'>
+   <p className='mt-6 armen'>
    Enjoy high profit margins with our transparent pricing model. We  <br />
    only charge 20-30% of the products cost, ensuring maximum  <br /> returns for your brand.
    </p>
    <Link href='/Contact' >
    <div className='flex gap-x-1'>
-                   <p className='py-4 text-[#db5f7a]'>
+                   <p className='py-4 text-[#db5f7a] armen'>
                         Get started 
                     </p>
 

@@ -5,7 +5,7 @@ import Haircare from './haircare'
 import SecondSection from './secondsection'
 import Footer from '../components/Footer'
 import Dive from './Dive'
-import Contact from '../Contact/Contact'
+import Contact from './Contact'
 
 const page = () => {
   return (
@@ -14,7 +14,9 @@ const page = () => {
  <Haircare />
  <SecondSection />
  <Dive />
- <Contact />
+<div className='flex justify-center'>
+  <Contact />
+</div>
  <Footer />
    
    </>

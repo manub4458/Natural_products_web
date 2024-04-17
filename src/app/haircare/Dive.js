@@ -13,7 +13,7 @@ const Dive = () => {
 
 <div className='grid justify-center'>
 <button 
-        className="border bg-[#db5f7a] hover:bg-[#d74f6d] text-white    font-semibold w-fit py-2 px-4 rounded "
+        className="border bg-[#db5f7a] hover:bg-[#d74f6d] text-white text-xl armen   font-semibold w-fit py-2 px-4 rounded "
         onClick={toggleVisibility}
       >
         {isVisible ? 'Lets Dive into our HairCare products' : 'Lets Dive into our HairCare products'}
@@ -21,7 +21,7 @@ const Dive = () => {
 
      <div>
      {isVisible && (
-        <div className="mt-4 leading-8  w-[60vw]">
+        <div className="mt-4 leading-8  w-[70vw] border armen border-[#dfc9ce] rounded-md p-6">
          
          <li>
          1.	<strong>Shampoo:</strong> Cleanses the scalp and hair, removing dirt, oil, and impurities for a fresh and clean feel.

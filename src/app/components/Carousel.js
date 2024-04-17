@@ -11,7 +11,9 @@ const Carousels = () => {
   return (
     <>
     
-    <Carousel>
+    <Carousel
+    
+    >
   <CarouselContent>
     <CarouselItem>
         

@@ -3,7 +3,7 @@ import Link from "next/link"
 const Section3 = () => {
   return (
     <>
-      <div className='flex justify-center gap-x-36 mt-20 bg-[#fafafa]'>
+      <div className='flex justify-around mt-20 bg-[#fafafa]'>
 
         <div>
           <img
@@ -15,10 +15,10 @@ const Section3 = () => {
         </div>
 
         <div className='mt-6'>
-          <h4 className='roboto2 font-semibold text-2xl'>
+          <h4 className='armen font-semibold text-xl'>
             CREATE HAIRCARE PRODUCTS
           </h4>
-          <p className='mt-6 lato'>
+          <p className='mt-6 armen'>
             Explore our collection of 25+ haircare essentials to elevate your <br />
             brand. From moisturizing shampoos to revitalizing Hair masks, <br /> we have got you covered.
 
@@ -37,7 +37,7 @@ const Section3 = () => {
 
               /> */}
 <Link href='/haircare' >
-<button className='bg-[#db5f7a] text-white p-2 text-[12px] rounded-lg mt-4 lato'>
+<button className='bg-[#db5f7a] text-white p-2 text-[12px] rounded-lg mt-4 armen'>
                       Our Range
                     </button>
                     </Link>
