@@ -62,6 +62,7 @@ const Contact = () => {
             <div >
                 <form className='ml-[30vw] lg:ml-[18vw] xl:ml-[30vw] lg:max-w-[100vw] p-8 pl-16 mt-10 space-y-8  my-10 max-w-[40vw] '
                 onSubmit={handleSubmit}
+                data-netlify="true"
                 >
                     <div>
                         <h2 className='text-3xl font-semibold sedan'>
