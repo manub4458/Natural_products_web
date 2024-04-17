@@ -24,18 +24,18 @@ const Section5 = () => {
             materials needed, just bring your brand vision, and we will handle <br /> the rest.
           </p>
           <Link href='/Contact'>
-            <div className='flex gap-x-1'>
+            <div className='flex gap-x-2'>
               <p className='py-4 text-[#db5f7a] armen'>
                 Get started
               </p>
-              <img
-                src='/arrow3.png'
-                alt='Arrow'
-                width={30}
-                height={30}
-                className='text-[#89d038] h-[20px] mt-[19px]'
+              <img 
+                    src='/arrrr1.png'
+                    alt='Arrow'
+                    width={20}
+                    height={30}
+                    className=' h-[20px] text-pink-700 mt-[19px] hover:ml-4'
 
-              />
+                    />
             </div>
             </Link>
         </div>

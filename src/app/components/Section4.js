@@ -15,7 +15,7 @@ const Section4 = () => {
    only charge 20-30% of the products cost, ensuring maximum  <br /> returns for your brand.
    </p>
    <Link href='/Contact' >
-   <div className='flex gap-x-1'>
+   <div className='flex gap-x-2'>
                    <p className='py-4 text-[#db5f7a] armen'>
                         Get started 
                     </p>
@@ -24,11 +24,11 @@ const Section4 = () => {
                       Our Range
                     </button> */}
                     <img 
-                    src='/arrow3.png'
+                    src='/arrrr1.png'
                     alt='Arrow'
-                    width={30}
+                    width={20}
                     height={30}
-                    className=' h-[20px] mt-[19px]'
+                    className=' h-[20px] text-pink-700 mt-[19px] hover:ml-4'
 
                     />
                    </div>

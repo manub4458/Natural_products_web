@@ -4,6 +4,7 @@ import Link from 'next/link'
 
 import Carousels from './Carousel';
 import Swipers from './Swiper';
+import Sliders from './Slider';
 
 const Hero = () => {
     // useEffect(() => {
@@ -13,7 +14,7 @@ const Hero = () => {
 
     return (
         <>
-            <div className='flex justify-around mb-20 h-[60vh] my-20 items-center '>
+            <div className='flex justify-evenly mb-20 h-[60vh] my-20 items-center '>
                 <div className=' '>
                     <h2 className=' justify-center text-3xl font-serif leading-10 armen'>
                         <span className='text-[#db5f7a] font-semibold'>  CREATE SKIN AND HAIR <br /> CARE BRAND </span>
@@ -47,12 +48,15 @@ const Hero = () => {
 
                     </div>
                 </div> */}
-                <div className='w-[50vw] '>
-                  <Carousels />
+                   {/* <Carousels /> */}
                   {/* <Swipers /> */}
+                  <div className='w-[40vw]'>
+                  <Sliders />
+                  </div>
+                 
 
                   
-                </div>
+
             </div>
         </>
     );

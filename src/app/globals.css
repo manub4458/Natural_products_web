@@ -283,3 +283,7 @@ li {
   font-family: "Inter", sans-serif;
   
 }
+.slick-slide img {
+  display: block;
+  width: 100%;
+}
