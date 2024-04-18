@@ -3,7 +3,7 @@ import React from 'react'
 const SecondSection = () => {
   return (
    <>
-   <div className='bg-white mx-32 border h-[40vh] pt-16 -translate-y-8 rounded-md'>
+   <div className='bg-white mx-32 border h-fit pt-16 pb-6 -translate-y-8 rounded-md'>
 
     <div>
         <h2 className='text-center py-4 text-2xl font-semibold armen'>

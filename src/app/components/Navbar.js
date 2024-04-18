@@ -1,12 +1,15 @@
 "use client"
 // import Link from 'next/link'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import DropdownMenu from './DropdownMenu'
 import Drop from './Drop'
 import { Link } from "react-scroll";
 import Home from './Home';
 import DropdownMenus from './DropdownMenu';
 import Cont from './Cont';
+import DropFinal from './DropFinal';
+import Brand from '../skincare/Brand';
+import Certificate from '../skincare/Certificate';
 
 const Navbar = () => {
     const scrollToRef = (ref) => {
@@ -20,6 +23,15 @@ const Navbar = () => {
 
     const section1Ref = React.useRef(null);
     const section2Ref = React.useRef(null);
+    const [hydration, setHydration] = useState(false);
+    useEffect(()=>{
+        setHydration(true)
+
+    },[])
+    if(!hydration)
+    {
+        return null;
+    }
     return (
         <>
             <div className='flex justify-around  py-6 shadow-lg'>
@@ -43,17 +55,18 @@ const Navbar = () => {
                    </li>
                     <li>
                        {/* <DropdownMenus /> */}
-                       <Drop />
+                       {/* <Drop /> */}
+                       <DropFinal />
                     </li>
                   
                     <li
                     className='cursor-pointer'
-                    ><Link to="section1" smooth={true} duration={500}>Brand</Link></li>
+                    ><Link to="section1" smooth={true} duration={500}><Brand /></Link></li>
 
                   
 <li
                     className='cursor-pointer'
-                    ><Link to="section2" smooth={true} duration={500}>Certifications</Link></li>
+                    ><Link to="section2" smooth={true} duration={500}><Certificate /></Link></li>
             
                 </div>
 

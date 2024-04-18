@@ -5,7 +5,7 @@ const Contact = () => {
     const [formData, setFormData] = useState({
         firstname:'',
         lastname:'',
-        email:'',
+        email:"",
         phone_number:'',
         company_name:'',
         select_product:'',
@@ -56,11 +56,36 @@ const Contact = () => {
       setSubmitting(false);
     
      }
+
+     const [email, setEmail] = useState('');
+     const [emailError, setEmailError] = useState('');
+ 
+     const handleSubmitt = (event) => {
+         event.preventDefault();
+         
+         if (!isValidEmail(email)) {
+             setEmailError('Please enter a valid email address');
+             return;
+         }
+ 
+         // Handle form submission
+         console.log('Email submitted:', email);
+     };
+ 
+     const handleChange = (event) => {
+         setEmail(event.target.value);
+         setEmailError('');
+     };
+ 
+     const isValidEmail = (email) => {
+         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+         return emailRegex.test(email);
+     };
     return (
         <>
 
             <div >
-                <form className='ml-[30vw] lg:ml-[18vw] xl:ml-[30vw] lg:max-w-[100vw] p-8 pl-16 mt-10 space-y-8  my-10 max-w-[40vw] '
+                <form className='ml-[30vw] lg:ml-[17vw] xl:ml-[30vw] lg:max-w-[100vw] p-8 pl-16 mt-10 space-y-8  my-10 max-w-[40vw] '
                 onSubmit={handleSubmit}
                 data-netlify="true"
                 >
@@ -79,6 +104,7 @@ const Contact = () => {
                                 placeholder='First Name'
                                 className='outline-black border border-gray-700 rounded-md p-3 px-4'
                                 onChange={handleInputChange} 
+                                required
                             />
                         </div>
                         <div>
@@ -94,14 +120,17 @@ const Contact = () => {
                     </div>
                     <div>
                         <input
-                            type='text'
+                            type='email'
                             id='email'
                             name='email'
                             placeholder='Email'
-                            className='outline-black border border-gray-700 rounded-md w-[530px] p-3 px-4'
-                            onChange={handleInputChange} 
+                            className='outline-black border border-gray-700 rounded-md w-[530px] lg:w-[525px] p-3 px-4'
+                            onChange={(e)=>{handleInputChange(e); handleChange(e);}} 
+                            required
                         />
+                       
                     </div>
+                    {emailError && <p style={{ color: 'red' }}>{emailError}</p>}
                     <div className='flex'>
                         <div>
                             <input
@@ -111,6 +140,7 @@ const Contact = () => {
                                 placeholder='Phone'
                                 className='outline-black border border-gray-700 rounded-md p-3 px-4'
                                 onChange={handleInputChange} 
+                                required
                             />
                         </div>
                         <div>
@@ -121,20 +151,38 @@ const Contact = () => {
                                 placeholder='Company Name'
                                 className='outline-black border border-gray-700 ml-6 rounded-md p-3 px-4'
                                 onChange={handleInputChange} 
+                                required
                             />
                         </div>
                     </div>
 
                     <div className='flex'>
                       <div>
-                      <input
+                      {/* <input
                             type='select'
                             id='select_product'
                             name='select_product'
                             placeholder='Select Product'
                             className='outline-black border border-gray-700 rounded-md p-3 px-4'
                             onChange={handleInputChange} 
-                        />
+                            required
+                            
+                        /> */}
+                        <select
+                        className='outline-black border border-gray-700 rounded-md w-[255px] p-3 px-4'
+                        onChange={handleInputChange}
+                        name='select_product'
+                        >
+                            <option>
+                                Product
+                            </option>
+                            <option>
+                                Haircare
+                            </option>
+                            <option>
+                                SKincare
+                            </option>
+                        </select>
                       </div>
                       <div>
                       <input
@@ -158,6 +206,7 @@ const Contact = () => {
                             co
                             className='outline-black border border-gray-700 rounded-md w-[530px] p-3 px-4'
                             onChange={handleInputChange} 
+                            required
                         />
                     </div>
                     <div>

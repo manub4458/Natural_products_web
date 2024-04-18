@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import { Element } from 'react-scroll';
+import SliderThree from './SliderThree';
 const Customer = () => {
   const section2Ref = React.useRef(null);
   return (
@@ -10,11 +11,11 @@ const Customer = () => {
     ref={section2Ref}
     >
     <div className='bg-[#fafafa]'>
-        <h2 className='text-center font-bold armen text-2xl mt-16'>
+        <h2 className='text-center font-bold  text-2xl mt-16'>
         Certifications
         </h2>
     </div>
-    <div className="logos2 w-[100vw] my-20 bg-[#fafafa]">
+    {/* <div className="logos2 w-[100vw] my-20 bg-[#fafafa]">
                         <div className="logos-slide3  ">
                             <img src="/cer1.jpg" alt="3M Logo"  className='master overlay'/>
                             <img src="/cer2.jpg" alt="3M Logo"  className='master overlay'/>
@@ -43,14 +44,6 @@ const Customer = () => {
                            
 
 
-                            {/* <img src="/barstool-store.svg" alt="3M Logo" />
-                            <img src="/budweiser.svg" alt="3M Logo" />
-                            <img src="/buzzfeed.svg" alt="3M Logo" />
-                            <img src="/forbes.svg" alt="3M Logo" />
-                            <img src="/macys.svg" alt="3M Logo" />
-                            <img src="/menshealth.svg" alt="3M Logo" />
-                            <img src="/mrbeast.svg" alt="3M Logo" />
-                            <img src="/mrbeast.svg" alt="3M Logo" /> */}
     
     
     
@@ -61,6 +54,10 @@ const Customer = () => {
                            
     
                         </div>
+                    </div> */}
+
+                    <div className="  mx-[40px] my-20 bg-[#fafafa]">
+                      <SliderThree />
                     </div>
     </div>
 

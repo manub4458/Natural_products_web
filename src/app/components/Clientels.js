@@ -1,6 +1,7 @@
 "use client"
 import React, { useEffect } from 'react'
 import { Element } from 'react-scroll';
+import SliderTwo from './SliderTwo';
 const Clientels = () => {
   useEffect(() => {
     // const copy = document.querySelector('.logos-slide').cloneNode(true);
@@ -20,7 +21,7 @@ ref={section1Ref}
     Our Clientele
     </h2>
 </div>
-<div className="logos2 w-[100vw] my-20 bg-[#fafafa]">
+{/* <div className="logos2 w-[100vw] my-20 bg-[#fafafa]">
                     <div className="logos-slide2 ">
                         <img src="/e1.png" alt="3M Logo" />
                         <img src="/e2.png" alt="3M Logo" />
@@ -37,6 +38,10 @@ ref={section1Ref}
                         <img src="/e6.png" alt="3M Logo" />
                         <img src="/e7.png" alt="3M Logo" />
                     </div>
+                </div> */}
+
+                <div className="  mx-[40px] my-20 bg-[#fafafa]">
+                     <SliderTwo />
                 </div>
 </div>
 </Element>

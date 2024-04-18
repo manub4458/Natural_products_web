@@ -15,8 +15,8 @@ const Section4 = () => {
    only charge 20-30% of the products cost, ensuring maximum  <br /> returns for your brand.
    </p>
    <Link href='/Contact' >
-   <div className='flex gap-x-2'>
-                   <p className='py-4 text-[#db5f7a] armen'>
+   <div className='flex gap-x-2 '>
+                   <p className='py-4 text-[#db5f7a] armen hover:ml-4 hover:scroll-smooth'>
                         Get started 
                     </p>
 
