@@ -12,18 +12,47 @@ const Contact = () => {
         state:'',
         enquiry: ""
     });
+    const [errors, setErrors] = useState({
+        firstname: '',
+        lastname: '',
+        email: '',
+        phone_number: '',
+        company_name: '',
+        select_product: '',
+        state: '',
+        enquiry: '',
+    });
     
     const [submitting, setSubmitting] = useState(false);
     
     const handleInputChange = (e) => {
-      const   {name, value} = e.target;
+        const { name, value } = e.target;
+        let newValue = value;
+        let error = '';
     
-      setFormData({
-           ...formData,
-          [name]: value,
+        // Validation for first name and last name: only English alphabets allowed
+        if (name === 'firstname' || name === 'lastname') {
+            if (!/^[a-zA-Z]*$/.test(value)) {
+                error = 'Only English alphabets allowed';
+            }
+        }
     
+        // Validation for phone number: should start with +91 followed by 10 digits
+        if (name === 'phone_number') {
+            if (!/^\+91\d{10}$/.test(value)) {
+                error = 'Phone number should start with +91 followed by 10 digits';
+            }
+        }
     
-      });
+        setErrors({
+            ...errors,
+            [name]: error,
+        });
+    
+        setFormData({
+            ...formData,
+            [name]: newValue,
+        });
     }
     
      const handleSubmit = async (e) =>{
@@ -96,7 +125,8 @@ const Contact = () => {
                     </div>
 
                     <div className='flex'>
-                        <div>
+                        <div className='grid'>
+                        <label htmlFor="email">First Name <span style={{ color: 'red' }}>*</span></label>
                             <input
                                 type='text'
                                 id='firstname'
@@ -106,19 +136,23 @@ const Contact = () => {
                                 onChange={handleInputChange} 
                                 required
                             />
+                               {errors.firstname && <p style={{ color: 'red' }}>{errors.firstname}</p>}
                         </div>
-                        <div>
+                        <div className='mt-6'>
                             <input
                                 type='text'
                                 id='lastname'
                                 name='lastname'
                                 placeholder='Last Name'
-                                className='outline-black border border-gray-700 ml-6 rounded-md p-3 px-4'
+                                className='outline-black border border-gray-700 ml-6 rounded-md p-3 px-4 '
                                 onChange={handleInputChange} 
+
                             />
+                            {errors.lastname && <p className='pl-10' style={{ color: 'red' }}>{errors.lastname}</p>}
                         </div>
                     </div>
-                    <div>
+                    <div className='grid'>
+                    <label htmlFor="email">Email <span style={{ color: 'red' }}>*</span></label>
                         <input
                             type='email'
                             id='email'
@@ -128,11 +162,13 @@ const Contact = () => {
                             onChange={(e)=>{handleInputChange(e); handleChange(e);}} 
                             required
                         />
-                       
+                         {emailError && <p style={{ color: 'red' }}>{emailError}</p>}
                     </div>
-                    {emailError && <p style={{ color: 'red' }}>{emailError}</p>}
+                  
                     <div className='flex'>
-                        <div>
+                        <div className='grid'>
+                    <label htmlFor="email">Phone Number <span style={{ color: 'red' }}>*</span></label>
+
                             <input
                                 type='phone number'
                                 id='phone_number'
@@ -142,8 +178,10 @@ const Contact = () => {
                                 onChange={handleInputChange} 
                                 required
                             />
+                               {errors.phone_number && <p className='text-sm w-[200px] ' style={{ color: 'red' }}>{errors.phone_number}</p>}
+
                         </div>
-                        <div>
+                        <div className='mt-6'>
                             <input
                                 type='text'
                                 id='company_name'
@@ -174,29 +212,137 @@ const Contact = () => {
                         name='select_product'
                         >
                             <option>
-                                Product
+                               Select Product
                             </option>
                             <option>
                                 Haircare
                             </option>
                             <option>
-                                SKincare
+                                Skincare
+                            </option>
+                            <option>
+                                Both
                             </option>
                         </select>
                       </div>
-                      <div>
-                      <input
-                            type='text'
-                            id='state'
-                            name='state'
-                            placeholder='State'
-                            className='outline-black border border-gray-700 ml-6 rounded-md p-3 px-4'
-                            onChange={handleInputChange} 
-                        />
+                      <div >
+                      <select
+                        className='outline-black border border-gray-700 rounded-md w-[255px] p-3 px-4 ml-5'
+                        onChange={handleInputChange}
+                        name='state'
+                        >
+                            <option>
+                               Select State
+                            </option>
+                            <option>
+                            Andaman & Nicobar
+                            </option>
+                            <option>
+                            Andhra Pradesh
+                            </option>
+                            <option>
+                            Arunachal Pradesh
+                            </option>
+                            <option>
+                            Assam
+                            </option>
+                            <option>
+                            Bihar
+                            </option>
+                            <option>
+                            Chandigarh
+                            </option>
+                            <option>
+                            Chhattisgarh
+                            </option>
+                            <option>
+                                Delhi
+                            </option>
+                            <option>
+                            Goa
+                            </option>
+                            <option>
+                            Gujarat
+                            </option>
+                            <option>
+                            Haryana
+                            </option>
+
+
+                            <option>
+                            Himachal Pradesh
+                            </option>
+                            <option>
+                            Jammu & Kashmir
+                            </option>
+                            <option>
+                            Jharkhand
+                            </option>
+                            <option>
+                            Karnataka
+                            </option>
+                            <option>
+                            Kerala
+                            </option>
+                            <option>
+                            Ladakh 
+                            </option>
+                            <option>
+                            Madhya Pradesh
+                            </option>
+                            <option>
+                            Maharashtra
+                            </option>
+                            <option>
+                            Manipur
+                            </option>
+
+
+                            <option>
+                            Meghalaya
+                            </option>
+                            <option>
+                            Mizoram
+                            </option>
+                            <option>
+                            Nagaland
+                            </option>
+
+                            <option>
+                            Odisha
+                            </option>
+                            <option>
+                            Punjab
+                            </option>
+                            <option>
+                            Rajasthan
+                            </option>
+                            <option>
+                            Sikkim
+                            </option>
+                            <option>
+                            Tamil Nadu
+                            </option>
+                            <option>
+                            Telangana
+                            </option>
+                            <option>
+                            Tripura
+                            </option>
+                            <option>
+                            Uttar Pradesh
+                            </option>
+                            <option>
+                            Uttarakhand
+                            </option>
+
+                        </select>
                       </div>
                     </div>
 
-                    <div>
+                    <div className='grid'>
+                    <label htmlFor="email">Enquiry <span style={{ color: 'red' }}>*</span></label>
+
                         <textarea
                             type='message'
                             rows="5"

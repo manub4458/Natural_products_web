@@ -271,6 +271,7 @@ li {
   height: fit-content;
   /* object-fit: cover; */
 }
+
 @font-face {
   font-family: 'Avenirltstd roman';
   src: url('/public/font2.ttf'); 
@@ -325,5 +326,7 @@ li {
 
 
 .dropdown:hover .dropdown-content {display: block;}
+
+
 
 

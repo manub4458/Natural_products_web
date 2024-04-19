@@ -51,6 +51,7 @@ const Sliders = () => {
                             src='/hero2.png'
                         />
                     </div>
+                   
                     <div>
                         <img
                             src='/hero6.jpeg'
@@ -66,6 +67,12 @@ const Sliders = () => {
                             src='/hero5.jpeg'
                         />
                     </div>
+                    <div>
+                        <img
+                            src='/hero7.jpeg'
+                        />
+                    </div>
+                    
                     
                 </Slider>
             </div>
