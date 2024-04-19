@@ -1,11 +1,15 @@
 "use client"
+import { useSearchParams } from 'next/navigation';
 import React, { useState } from 'react'
 
 const Contact = () => {
+    const searchParams = useSearchParams();
+    const queryEmail = searchParams.get("email")
+    console.log(queryEmail)
     const [formData, setFormData] = useState({
         firstname:'',
         lastname:'',
-        email:"",
+        email:queryEmail || '',
         phone_number:'',
         company_name:'',
         select_product:'',
@@ -86,9 +90,10 @@ const Contact = () => {
     
      }
 
-     const [email, setEmail] = useState('');
+     const [email, setEmail] = useState(queryEmail || '');
      const [emailError, setEmailError] = useState('');
- 
+  
+     
      const handleSubmitt = (event) => {
          event.preventDefault();
          
@@ -110,6 +115,9 @@ const Contact = () => {
          const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
          return emailRegex.test(email);
      };
+        
+     
+     
     return (
         <>
 
@@ -157,6 +165,7 @@ const Contact = () => {
                             type='email'
                             id='email'
                             name='email'
+                            value={email}
                             placeholder='Email'
                             className='outline-black border border-gray-700 rounded-md w-[530px] lg:w-[525px] p-3 px-4'
                             onChange={(e)=>{handleInputChange(e); handleChange(e);}} 
@@ -349,7 +358,6 @@ const Contact = () => {
                             id='enquiry'
                             name='enquiry'
                             placeholder='Enquiry'
-                            co
                             className='outline-black border border-gray-700 rounded-md w-[530px] p-3 px-4'
                             onChange={handleInputChange} 
                             required

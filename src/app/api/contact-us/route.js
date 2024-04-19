@@ -6,6 +6,7 @@ import fs from 'fs';
 import path from 'path';
 
 export async function POST(request) {
+ try {
     const data = await request.json();
 
     // get html template
@@ -32,7 +33,11 @@ export async function POST(request) {
 
         return NextResponse.json({ success: true });
     } catch (err) {
-        console.error(err);
-        return NextResponse.json({ error: err.message }, { status: err.status });
+        console.error("nodemailer API error",err);
+        return new NextResponse({ error: err.message }, { status: err.status });
     }
+ } catch (error) {
+    console.error("Enquiry API error",error)
+    return new NextResponse("Internal Server Error", {status:500})
+ }
 }

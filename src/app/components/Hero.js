@@ -5,32 +5,16 @@ import Link from 'next/link'
 import Carousels from './Carousel';
 import Swipers from './Swiper';
 import Sliders from './Slider';
+import { useRouter } from 'next/navigation';
 
 const Hero = () => {
    
+    const router = useRouter();
     const [email, setEmail] = useState('');
-    const [emailError, setEmailError] = useState('');
-
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        
-        if (!isValidEmail(email)) {
-            setEmailError('Please enter a valid email address');
-            return;
-        }
-
-        // Handle form submission
-        console.log('Email submitted:', email);
-    };
-
-    const handleChange = (event) => {
-        setEmail(event.target.value);
-        setEmailError('');
-    };
-
-    const isValidEmail = (email) => {
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return emailRegex.test(email);
+  
+    const handleButtonClick = () => {
+      // Redirect to contact page with email as query parameter
+      router.push(`/Contact?email=${encodeURIComponent(email)}`);
     };
 
     // useEffect(() => {
@@ -51,16 +35,18 @@ const Hero = () => {
                     <input
                         type='email'
                         id='email'
+                        value={email}
                         placeholder='Your email Address..'
-                        onChange={handleChange} 
+                        onChange={(e) => setEmail(e.target.value)}
                         className=' outline-none focus:border armen focus:border-blue-300 rounded-md  py-3 px-8 mt-4 bg-slate-100/20 '
                     />
-                  <Link href='/Contact'
-                    >
-                  <button className='py-3 px-8 ml-4 bg-[#db5f7a] text-white rounded-md armen'>
+                 
+                  <button className='py-3 px-8 ml-4 bg-[#db5f7a] text-white rounded-md armen'
+                  onClick={handleButtonClick}
+                  >
                         Get started
                     </button>
-                  </Link>
+                
                 </div>
 
                 {/* <div className="logos w-[55vw]">

@@ -9,7 +9,16 @@ function SampleNextArrow(props) {
     return (
       <div
         className={className}
-        style={{ ...style, display: "block", background: "black" }}
+        style={{ ...style, display: "hidden", 
+        backgroundImage:`url('/front.png')`,
+        // backgroundColor:'blue',
+       width:"50px",
+       height:'50px',
+                backgroundSize: 'cover', // Ensure image covers the div
+                backgroundRepeat: 'no-repeat' // Prevent image repetition
+    
+    
+    }}
         onClick={onClick}
       />
     );
@@ -20,7 +29,16 @@ function SampleNextArrow(props) {
     return (
       <div
         className={className}
-        style={{ ...style, display: "block", background: "black" }}
+        style={{ ...style, display: "hidden", 
+        backgroundImage:`url('/back.png')`,
+        // backgroundColor:'blue',
+       width:"50px",
+       height:'50px',
+                backgroundSize: 'cover', // Ensure image covers the div
+                backgroundRepeat: 'no-repeat' // Prevent image repetition
+    
+    
+    }}
         onClick={onClick}
       />
     );
