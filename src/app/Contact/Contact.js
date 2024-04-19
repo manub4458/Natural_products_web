@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 const Contact = () => {
     const searchParams = useSearchParams();
     const queryEmail = searchParams.get("email")
-    console.log(queryEmail)
+    // console.log(queryEmail)
     const [formData, setFormData] = useState({
         firstname:'',
         lastname:'',
