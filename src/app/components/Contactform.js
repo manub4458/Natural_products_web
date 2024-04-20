@@ -112,7 +112,7 @@ console.log(formData)
  };
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center">
+    <div className="fixed inset-0 flex items-center h-fit justify-center">
       <div className="fixed inset-0 bg-black opacity-50"></div>
       <div className="bg-white p-8 rounded-lg shadow-lg z-10 fixed right-0 top-0 h-full xl:w-[40vw] lg:w-[58vw]  transform transition-transform duration-300 ease-in-out translate-x-full sm:translate-x-0">
         <button className="absolute top-2 right-2 text-gray-500" onClick={onClose}>
@@ -120,7 +120,7 @@ console.log(formData)
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
-        <h2 className="text-2xl font-semibold text-center">React Out to us</h2>
+        {/* <h2 className="text-2xl font-semibold text-center">React Out to us</h2> */}
         {/* <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label htmlFor="name" className="block text-gray-700 font-bold mb-2">Name</label>
@@ -225,7 +225,7 @@ console.log(formData)
 
                 </form> */}
 
-<form className='space-y-8  my-10 max-w-[60vw] lg:max-w-[60vw] '
+<form className='space-y-8 lg:space-y-4  xl:space-y-6 my-10 lg:mt-0 max-w-[60vw]  lg:max-w-[60vw] '
                 onSubmit={handleSubmit}
                 data-netlify="true"
                 >
@@ -461,13 +461,24 @@ console.log(formData)
                             name='enquiry'
                             placeholder='Enquiry'
                             co
-                            className='outline-black border border-gray-700 rounded-md w-[530px] p-3 px-4'
+                            className='outline-black border lg:hidden xl:inline-block border-gray-700 rounded-md w-[530px] p-3 px-4'
+                            onChange={handleInputChange} 
+                            required
+                        />
+                         <textarea
+                            type='message'
+                            rows="3"
+                            id='enquiry'
+                            name='enquiry'
+                            placeholder='Enquiry'
+                            co
+                            className='outline-black border lg:inline-block xl:hidden border-gray-700 rounded-md w-[530px] p-3 px-4'
                             onChange={handleInputChange} 
                             required
                         />
                     </div>
                     <div>
-                        <button className='bg-[#89d038] text-white py-3 w-[530px] rounded-xl'
+                        <button className='bg-[#89d038] text-white py-3 w-[530px] lg:py-1 xl:py-3 rounded-xl'
                         type='submit'
                         >
                             Submit Request

@@ -1,8 +1,18 @@
 "use client"
 import { useSearchParams } from 'next/navigation';
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
-const Contact = () => {
+
+
+export async function getStaticProps(){
+    const res = await axios.get('https://dummyjson.com/products');
+    const data = res.data;
+
+    // Pass data to the page via props
+    return { props: { data } };
+
+}
+const Cont = ({data}) => {
     const searchParams = useSearchParams();
     const queryEmail = searchParams.get("email")
     // console.log(queryEmail)
@@ -40,18 +50,14 @@ const Contact = () => {
                 error = 'Only English alphabets allowed';
             }
         }
-        if (name === 'email' || queryEmail) {
-            if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) {
-                error = 'please add @ with the email';
-            }
-        }
+    
         // Validation for phone number: should start with +91 followed by 10 digits
         if (name === 'phone_number') {
             if (!/^\+91\d{10}$/.test(value)) {
                 error = 'Phone number should start with +91 followed by 10 digits';
             }
         }
-        
+    
         setErrors({
             ...errors,
             [name]: error,
@@ -121,7 +127,8 @@ const Contact = () => {
      };
         
      
-     
+    //  state api
+   
     return (
         <>
 
@@ -173,11 +180,9 @@ const Contact = () => {
                             placeholder='Email'
                             className='outline-black border border-gray-700 rounded-md w-[530px] lg:w-[525px] p-3 px-4'
                             onChange={(e)=>{handleInputChange(e); handleChange(e);}} 
-                            // onChange={handleInputChange} 
                             required
                         />
                          {emailError && <p style={{ color: 'red' }}>{emailError}</p>}
-                         {/* {errors.email && <p style={{ color: 'red' }}>{errors.email}</p>} */}
                     </div>
                   
                     <div className='flex'>
@@ -378,6 +383,11 @@ const Contact = () => {
                     </div>
 
                 </form>
+
+                <div>
+            {/* Render your data here */}
+            <pre>{JSON.stringify(data, null, 2)}</pre>
+        </div>
             </div>
 
 
@@ -385,4 +395,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default Cont

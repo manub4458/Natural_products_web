@@ -7,7 +7,7 @@ const Brand = () => {
 <Link href='/'>
 
 <div>
-    Brand
+    Brands
 </div>
 </Link>
 
