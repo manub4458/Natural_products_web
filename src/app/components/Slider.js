@@ -22,7 +22,7 @@ function SampleNextArrow(props) {
         style={{
           ...style,
           display: 'block',
-          background: '#', // Change the background color here
+          background: '#db5f7a', // Change the background color here
          
           
           borderRadius: '50%', // Make it circular
@@ -45,7 +45,7 @@ function SampleNextArrow(props) {
         style={{
           ...style,
           display: 'block',
-          background: '#', // Change the background color here
+          background: '#db5f7a', // Change the background color here
          
           
           borderRadius: '50%', // Make it circular
