@@ -12,6 +12,7 @@ import Mobnav from './Mobnav'
 import DropdownMenu from './DropdownMenu'
 import Section4 from './Section4'
 import Section5 from './Section5'
+import Dumb from './dumb'
 
 const Landing = () => {
   return (
@@ -32,6 +33,7 @@ const Landing = () => {
 			</div> */}
      
       	<Hero />
+        {/* <Dumb /> */}
    <Whyus />
    <Section2 />
    <Section3 />

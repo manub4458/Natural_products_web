@@ -4,25 +4,59 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 // import Arrow from './Arrow';
 // import "./globals.css";
+// function SampleNextArrow(props) {
+//     const { className, style, onClick } = props;
+//     return (
+//       <div
+//         className={className}
+//         style={{ ...style, display: "block", background:'#db5f7a' }}
+//         onClick={onClick}
+//       />
+//     );
+//   }
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
       <div
         className={className}
-        style={{ ...style, display: "block", background:'#db5f7a' }}
+        style={{
+          ...style,
+          display: 'block',
+          background: '#', // Change the background color here
+         
+          
+          borderRadius: '50%', // Make it circular
+          
+          lineHeight: '25px', // Center the icon vertically
+          fontSize: '20px', // Set the font size of the icon
+        }}
         onClick={onClick}
-      />
+      >
+        {'>'}
+      </div>
     );
   }
   
   function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
-      <div
+        <div
         className={className}
-        style={{ ...style, display: "block", background:'#db5f7a' }}
+        style={{
+          ...style,
+          display: 'block',
+          background: '#', // Change the background color here
+         
+          
+          borderRadius: '50%', // Make it circular
+          
+          lineHeight: '25px', // Center the icon vertically
+          fontSize: '20px', // Set the font size of the icon
+        }}
         onClick={onClick}
-      />
+      >
+        {'>'}
+      </div>
     );
   }
 const Sliders = () => {
