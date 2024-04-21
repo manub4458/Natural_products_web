@@ -38,6 +38,10 @@ const Hero = () => {
      };
   
     const handleButtonClick = () => {
+        if (!isValidEmail(email)) {
+            setEmailError('Please enter a valid email address');
+            return;
+        }
       // Redirect to contact page with email as query parameter
       router.push(`/Contact?email=${encodeURIComponent(email)}`);
     };
