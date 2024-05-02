@@ -24,10 +24,10 @@ const Footer = () => {
                 REACH OUT TO US
             </h1>
 
-            <p className='text-center leading-8 armen'>
+            <h4 className='text-center leading-8 armen'>
                 Find out more about our top offering in labelling, <br />
                 Packaging and supply chain visibililty
-            </p>
+            </h4>
            </div>
    
    <div className='flex justify-around mt-6 '>

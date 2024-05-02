@@ -17,9 +17,9 @@ ref={section1Ref}
 >
 
 <div className='bg-[#fafafa]'>
-    <h1 className='text-center font-bold armen text-2xl mt-16'>
+    <h4 className='text-center font-bold armen text-2xl mt-16'>
     Our Clientele
-    </h1>
+    </h4>
 </div>
 {/* <div className="logos2 w-[100vw] my-20 bg-[#fafafa]">
                     <div className="logos-slide2 ">
