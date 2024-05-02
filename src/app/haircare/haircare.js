@@ -12,9 +12,9 @@ const Haircare = () => {
     </div>
 
     <div className=' ml-20 mt-8'>
-        <h2 className='text-white font-semibold  armen text-3xl'>
+        <h1 className='text-white font-semibold  armen text-3xl'>
         Private Label Haircare Products
-        </h2>
+        </h1>
     </div>
 
     <div className='ml-20 mt-8'>
