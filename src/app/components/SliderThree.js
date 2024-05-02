@@ -68,42 +68,56 @@ const SliderThree = () => {
                     <div>
                         <img
                            src="/cer1.jpg"
+                           alt='slider'
+
                             className='aspect-[3/4] p-2 '
                         />
                     </div>
                     <div>
                         <img
                             src="/cer2.jpg"
+                            alt='slider'
+
                             className='aspect-[3/4] p-2'
                         />
                     </div>
                     <div>
                         <img
                             src="/cer3.jpg"
+                            alt='slider'
+
                             className='aspect-[3/4] p-2'
                         />
                     </div>
                     <div>
                         <img
                             src="/cer4.jpg"
+                            alt='slider'
+
                              className='aspect-[3/4] p-2'
                         />
                     </div>
                     <div>
                         <img
                             src="/cer5.jpg"
+                            alt='slider'
+
                             className='aspect-[3/4] p-2'
                         />
                     </div>
                     <div>
                         <img
                            src="/cer6.jpg"
+                           alt='slider'
+
                             className='aspect-[3/4] p-2'
                         />
                     </div>
                     <div>
                         <img
                            src="/cer7.jpg"
+                           alt='slider'
+
                             className='aspect-[3/4] p-2'
                         />
                     </div>
@@ -111,18 +125,24 @@ const SliderThree = () => {
                     <div>
                         <img
                            src="/cer1.jpg"
+                           alt='slider'
+
                             className='aspect-[3/4] p-2 '
                         />
                     </div>
                     <div>
                         <img
                             src="/cer2.jpg"
+                            alt='slider'
+
                             className='aspect-[3/4] p-2'
                         />
                     </div>
                     <div>
                         <img
                             src="/cer3.jpg"
+                            alt='slider'
+
                             className='aspect-[3/4] p-2'
                         />
                     </div>

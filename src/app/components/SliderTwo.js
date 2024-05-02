@@ -68,42 +68,56 @@ const SliderTwo = () => {
                     <div>
                         <img
                             src='/e1.png'
+                            alt='slider'
+
                             className='object-contain p-2'
                         />
                     </div>
                     <div>
                         <img
                             src='/e2.png'
+                            alt='slider'
+
                             className='object-contain p-2'
                         />
                     </div>
                     <div>
                         <img
                             src='/e3.png'
+                            alt='slider'
+
                             className='object-contain p-2'
                         />
                     </div>
                     <div>
                         <img
                              src='/e4.png'
+                            alt='slider'
+
                              className='object-contain p-2'
                         />
                     </div>
                     <div>
                         <img
                             src='/e5.png'
+                            alt='slider'
+
                             className='object-contain p-2'
                         />
                     </div>
                     <div>
                         <img
                             src='/e6.png'
+                            alt='slider'
+
                             className='object-contain p-2'
                         />
                     </div>
                     <div>
                         <img
                             src='/e7.png'
+                            alt='slider'
+
                             className='object-contain p-2'
                         />
                     </div>
@@ -111,18 +125,24 @@ const SliderTwo = () => {
                     <div>
                         <img
                             src='/e1.png'
+                            alt='slider'
+
                             className='object-contain p-2'
                         />
                     </div>
                     <div>
                         <img
                             src='/e2.png'
+                            alt='slider'
+
                             className='object-contain p-2'
                         />
                     </div>
                     <div>
                         <img
                             src='/e3.png'
+                            alt='slider'
+
                             className='object-contain p-2'
                         />
                     </div>

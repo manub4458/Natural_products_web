@@ -78,32 +78,43 @@ const Sliders = () => {
                     <div>
                         <img
                             src='/hero1.png'
+                            alt='slider'
                         />
                     </div>
                     <div>
                         <img
                             src='/hero2.png'
+                            alt='slider'
+
                         />
                     </div>
                    
                     <div>
                         <img
                             src='/hero6.jpeg'
+                            alt='slider'
+
                         />
                     </div>
                     <div>
                         <img
                             src='/hero4.jpeg'
+                            alt='slider'
+
                         />
                     </div>
                     <div>
                         <img
                             src='/hero5.jpeg'
+                            alt='slider'
+
                         />
                     </div>
                     <div>
                         <img
                             src='/hero7.jpeg'
+                            alt='slider'
+
                         />
                     </div>
                     
