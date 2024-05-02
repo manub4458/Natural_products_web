@@ -68,62 +68,62 @@ const SliderTwo = () => {
                     <div>
                         <img
                             src='/e1.png'
-                            className='aspect-[3/2] p-2'
+                            className='object-contain p-2'
                         />
                     </div>
                     <div>
                         <img
                             src='/e2.png'
-                            className='aspect-[3/2] p-2'
+                            className='object-contain p-2'
                         />
                     </div>
                     <div>
                         <img
                             src='/e3.png'
-                            className='aspect-[3/2] p-2'
+                            className='object-contain p-2'
                         />
                     </div>
                     <div>
                         <img
                              src='/e4.png'
-                             className='aspect-[3/2] p-2'
+                             className='object-contain p-2'
                         />
                     </div>
                     <div>
                         <img
                             src='/e5.png'
-                            className='aspect-[3/2] p-2'
+                            className='object-contain p-2'
                         />
                     </div>
                     <div>
                         <img
                             src='/e6.png'
-                            className='aspect-[3/2] p-2'
+                            className='object-contain p-2'
                         />
                     </div>
                     <div>
                         <img
                             src='/e7.png'
-                            className='aspect-[3/2] p-2'
+                            className='object-contain p-2'
                         />
                     </div>
 
                     <div>
                         <img
                             src='/e1.png'
-                            className='aspect-[3/2] p-2'
+                            className='object-contain p-2'
                         />
                     </div>
                     <div>
                         <img
                             src='/e2.png'
-                            className='aspect-[3/2] p-2'
+                            className='object-contain p-2'
                         />
                     </div>
                     <div>
                         <img
                             src='/e3.png'
-                            className='aspect-[3/2] p-2'
+                            className='object-contain p-2'
                         />
                     </div>
                     

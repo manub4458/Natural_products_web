@@ -15,9 +15,9 @@ const Section5 = () => {
         </div>
 
         <div className='mt-6'>
-          <h4 className='armen font-semibold text-xl '>
+          <h2 className='armen font-semibold text-xl '>
           Your Complete Branding Partner 
-          </h4>
+          </h2>
           <p className='mt-6 armen'>
           Leave the hassle behind—our one-stop-shop solution covers it all. From <br />
            sourcing bottles to designing labels, we haveve got you covered. No prior <br />

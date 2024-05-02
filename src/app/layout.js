@@ -4,10 +4,12 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "natureayurveda",
-  description: "",
+  title: 'natureayurveda',
+  description: '',
+  icons: {
+    icon: '/logo.svg', // /public path
+  },
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

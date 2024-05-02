@@ -15,9 +15,9 @@ const Section3 = () => {
         </div>
 
         <div className='mt-6'>
-          <h4 className='armen font-semibold text-xl'>
+          <h2 className='armen font-semibold text-xl'>
             CREATE HAIRCARE PRODUCTS
-          </h4>
+          </h2>
           <p className='mt-6 armen'>
             Explore our collection of 25+ haircare essentials to elevate your <br />
             brand. From moisturizing shampoos to revitalizing Hair masks, <br /> we have got you covered.

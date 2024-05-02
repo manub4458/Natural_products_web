@@ -7,9 +7,9 @@ const Section2 = () => {
    <div className='flex justify-around mt-20 bg-[#fafafa]'>
 
    <div className='mt-6'>
-       <h4 className='armen text-xl font-semibold'>
+       <h2 className='armen text-xl font-semibold'>
         CREATE SKINCARE PRODUCTS
-       </h4>
+       </h2>
    <p className='mt-6 armen'>
    Explore our range of 70+ skincare must-haves, ready to make your brand  <br />
    shine. From  silky serums to gentle cleansers, we have got your skincare <br /> needs covered.

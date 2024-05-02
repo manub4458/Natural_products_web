@@ -55,9 +55,9 @@ const Hero = () => {
         <>
             <div className='flex justify-evenly mb-20 h-[60vh] my-20 items-center '>
                 <div className=' '>
-                    <h2 className=' justify-center text-3xl font-serif leading-10 armen'>
+                    <h1 className=' justify-center text-3xl font-serif leading-10 armen'>
                         <span className='text-[#db5f7a] font-semibold'>  CREATE SKIN AND HAIR <br /> CARE BRAND </span>
-                    </h2>
+                    </h1>
                     <p className='w-[28vw]  leading-8 pt-4 text-lg armen'>
                     Step into our world of skincare and haircare wonders! Unleash your brands beauty with us—its where fun meets fabulous. Lets make your dream products a reality!
                              </p>

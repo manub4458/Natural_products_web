@@ -7,9 +7,9 @@ const Section4 = () => {
    <div className='flex justify-around mt-20 bg-[#fafafa]'>
 
    <div className='mt-6'>
-       <h4 className='armen text-xl font-semibold'>
+       <h2 className='armen text-xl font-semibold'>
         HIGH MARGINS
-       </h4>
+       </h2>
    <p className='mt-6 armen'>
    Enjoy high profit margins with our transparent pricing model. We  <br />
    only charge 20-30% of the products cost, ensuring maximum  <br /> returns for your brand.

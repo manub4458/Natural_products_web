@@ -20,9 +20,9 @@ const Footer = () => {
 
            <div className='py-6 bg-[#fafafa]'>
            <div className='space-y-4'>
-            <h2 className='text-center font-semibold text-2xl armen'>
+            <h1 className='text-center font-semibold text-2xl armen'>
                 REACH OUT TO US
-            </h2>
+            </h1>
 
             <p className='text-center leading-8 armen'>
                 Find out more about our top offering in labelling, <br />

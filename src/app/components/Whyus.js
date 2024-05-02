@@ -5,9 +5,9 @@ const Whyus = () => {
    <>
    
    <div className='my-8 bg-[#fafafa]'>
-    <h2 className='text-center font-semibold armen text-2xl py-4'>
+    <h1 className='text-center font-semibold armen text-2xl py-4'>
           Why Us?
-    </h2>
+    </h1>
 
     <p className='text-center leading-7 text-base armen'>
     Choose us because we tailor skincare and haircare products just for you. Our expertise ensures top-quality formulations  <br/>
