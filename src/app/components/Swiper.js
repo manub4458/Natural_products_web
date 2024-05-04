@@ -29,7 +29,7 @@ const Swipers = () => {
       >
         <SwiperSlide>
           <img 
-          src='/e1.png'
+          src='/e1.avif'
           alt='image'
           />
         </SwiperSlide>

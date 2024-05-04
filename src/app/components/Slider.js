@@ -77,13 +77,13 @@ const Sliders = () => {
                 <Slider {...settings} className='banner-slider'>
                     <div>
                         <img
-                            src='/hero1.png'
+                            src='/hero1.avif'
                             alt='slider'
                         />
                     </div>
                     <div>
                         <img
-                            src='/hero2.png'
+                            src='/hero2.avif'
                             alt='slider'
 
                         />
@@ -91,28 +91,28 @@ const Sliders = () => {
                    
                     <div>
                         <img
-                            src='/hero6.jpeg'
+                            src='/hero6.avif'
                             alt='slider'
 
                         />
                     </div>
                     <div>
                         <img
-                            src='/hero4.jpeg'
+                            src='/hero4.avif'
                             alt='slider'
 
                         />
                     </div>
                     <div>
                         <img
-                            src='/hero5.jpeg'
+                            src='/hero5.avif'
                             alt='slider'
 
                         />
                     </div>
                     <div>
                         <img
-                            src='/hero7.jpeg'
+                            src='/hero7.avif'
                             alt='slider'
 
                         />

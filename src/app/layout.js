@@ -7,9 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: 'natureayurveda',
   description: 'Step into our world of skincare and haircare wonders! Unleash your brands beauty with us—its where fun meets fabulous.',
-  icons: {
-    icon: '/logo.svg', // /public path
-  },
+ 
 };
 export default function RootLayout({ children }) {
   return (

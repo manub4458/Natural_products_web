@@ -7,7 +7,7 @@ const Arrow = () => {
     <div>
         <img 
         
-        src='/arrow.png'
+        src='/arrow.avif'
         alt='img'
         width={30}
         height={30}

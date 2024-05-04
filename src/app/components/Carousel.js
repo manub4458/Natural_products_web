@@ -17,7 +17,7 @@ const Carousels = () => {
   <CarouselContent>
     <CarouselItem>
         
-    <img src="/hero1.png" alt="3M Logo" 
+    <img src="/hero1.avif" alt="3M Logo" 
     className='w-[50vw]'
     />
 
@@ -25,33 +25,33 @@ const Carousels = () => {
 
         </CarouselItem>
     <CarouselItem>
-    <img src="/hero2.png" alt="3M Logo"
+    <img src="/hero2.avif" alt="3M Logo"
     className='w-[50vw]'
     />
 
     </CarouselItem>
     <CarouselItem>
-    <img src="/hero6.jpeg" alt="3M Logo"
+    <img src="/hero6.avif" alt="3M Logo"
     className='w-[50vw]'
     />
 
     </CarouselItem>
     <CarouselItem>
-    <img src="/hero4.jpeg" alt="3M Logo"
-    className='w-[50vw]'
-    />
-
-    </CarouselItem>
-
-    <CarouselItem>
-    <img src="/hero5.jpeg" alt="3M Logo"
+    <img src="/hero4.avif" alt="3M Logo"
     className='w-[50vw]'
     />
 
     </CarouselItem>
 
     <CarouselItem>
-    <img src="/hero7.jpeg" alt="3M Logo"
+    <img src="/hero5.avif" alt="3M Logo"
+    className='w-[50vw]'
+    />
+
+    </CarouselItem>
+
+    <CarouselItem>
+    <img src="/hero7.avif" alt="3M Logo"
     className='w-[50vw]'
     />
 

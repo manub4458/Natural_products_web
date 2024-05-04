@@ -36,7 +36,7 @@ const Section2 = () => {
       </div>
       <div>
         <img 
-        src='/skincare.jpg'
+        src='/skincare.avif'
         alt='Beauty'
         width={350}
         height={200}

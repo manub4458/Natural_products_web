@@ -7,7 +7,7 @@ const Section5 = () => {
 
         <div>
           <img
-            src='/onestop.png'
+            src='/onestop.avif'
             alt='Beauty'
             width={350}
             height={200}
@@ -29,7 +29,7 @@ const Section5 = () => {
                 Get started
               </p>
               <img 
-                    src='/arrrr1.png'
+                    src='/arrrr1.avif'
                     alt='Arrow'
                     width={20}
                     height={30}

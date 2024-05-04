@@ -24,7 +24,7 @@ const Section4 = () => {
                       Our Range
                     </button> */}
                     <img 
-                    src='/arrrr1.png'
+                    src='/arrrr1.avif'
                     alt='Arrow'
                     width={20}
                     height={30}
@@ -36,7 +36,7 @@ const Section4 = () => {
       </div>
       <div>
         <img 
-        src='/high.png'
+        src='/high.avif'
         alt='Beauty'
         width={350}
         height={200}

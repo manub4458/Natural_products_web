@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 const Skincare = () => {
   return (
     <>
-    <div className=' bg-[url("/skincare.jpg")] bg-cover bg-opacity-20 bg-no-repeat h-[100vh]  '>
+    <div className=' bg-[url("/skincare.avif")] bg-cover bg-opacity-20 bg-no-repeat h-[100vh]  '>
     <div className='text-white'>
     <Navbar />
     </div>

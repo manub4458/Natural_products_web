@@ -67,7 +67,7 @@ const SliderThree = () => {
                 <Slider {...settings} className='banner-slider  '>
                     <div>
                         <img
-                           src="/cer1.jpg"
+                           src="/cer1.avif"
                            alt='slider'
 
                             className='aspect-[3/4] p-2 '
@@ -75,7 +75,7 @@ const SliderThree = () => {
                     </div>
                     <div>
                         <img
-                            src="/cer2.jpg"
+                            src="/cer2.avif"
                             alt='slider'
 
                             className='aspect-[3/4] p-2'
@@ -83,7 +83,7 @@ const SliderThree = () => {
                     </div>
                     <div>
                         <img
-                            src="/cer3.jpg"
+                            src="/cer3.avif"
                             alt='slider'
 
                             className='aspect-[3/4] p-2'
@@ -91,7 +91,7 @@ const SliderThree = () => {
                     </div>
                     <div>
                         <img
-                            src="/cer4.jpg"
+                            src="/cer4.avif"
                             alt='slider'
 
                              className='aspect-[3/4] p-2'
@@ -99,7 +99,7 @@ const SliderThree = () => {
                     </div>
                     <div>
                         <img
-                            src="/cer5.jpg"
+                            src="/cer5.avif"
                             alt='slider'
 
                             className='aspect-[3/4] p-2'
@@ -107,7 +107,7 @@ const SliderThree = () => {
                     </div>
                     <div>
                         <img
-                           src="/cer6.jpg"
+                           src="/cer6.avif"
                            alt='slider'
 
                             className='aspect-[3/4] p-2'
@@ -115,7 +115,7 @@ const SliderThree = () => {
                     </div>
                     <div>
                         <img
-                           src="/cer7.jpg"
+                           src="/cer7.avif"
                            alt='slider'
 
                             className='aspect-[3/4] p-2'
@@ -124,7 +124,7 @@ const SliderThree = () => {
 
                     <div>
                         <img
-                           src="/cer1.jpg"
+                           src="/cer1.avif"
                            alt='slider'
 
                             className='aspect-[3/4] p-2 '
@@ -132,7 +132,7 @@ const SliderThree = () => {
                     </div>
                     <div>
                         <img
-                            src="/cer2.jpg"
+                            src="/cer2.avif"
                             alt='slider'
 
                             className='aspect-[3/4] p-2'
@@ -140,7 +140,7 @@ const SliderThree = () => {
                     </div>
                     <div>
                         <img
-                            src="/cer3.jpg"
+                            src="/cer3.avif"
                             alt='slider'
 
                             className='aspect-[3/4] p-2'

@@ -39,7 +39,7 @@ const Navbar = () => {
                
                <div>
                     <img
-                        src='/logo2.jpg'
+                        src='/logo2.avif'
                         alt='logo'
                         width={45}
                         height={120}

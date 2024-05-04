@@ -36,7 +36,7 @@ const Footer = () => {
         <button className='leading-8 bg-white p-10 h-[200px] w-[350px]  px-20 rounded-md  hover:text-[#db5f7a] hover:transition-all '>
            <div className='flex gap-x-5'>
            <img 
-            src='/phone.gif'
+            src='/phone.avif'
             alt='call'
             width={30}
             height={30}
@@ -61,7 +61,7 @@ const Footer = () => {
         >
            <div className='flex gap-x-4'>
            <img 
-            src='/request.gif'
+            src='/request.avif'
             alt='call'
             width={30}
             height={30}
@@ -81,7 +81,7 @@ const Footer = () => {
         <button className=' bg-white p-10 h-[200px] w-[350px]  px-20 rounded-md hover:text-[#db5f7a]   '>
            <div className='flex gap-x-5'>
            <img 
-            src='/address.gif'
+            src='/address.avif'
             alt='call'
             width={30}
             height={30}

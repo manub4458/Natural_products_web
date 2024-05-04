@@ -7,7 +7,7 @@ const Section3 = () => {
 
         <div>
           <img
-            src='/haircare.jpg'
+            src='/haircare.avif'
             alt='Beauty'
             width={350}
             height={200}

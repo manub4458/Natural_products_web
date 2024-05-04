@@ -67,7 +67,7 @@ const SliderTwo = () => {
                 <Slider {...settings} className='banner-slider  '>
                     <div>
                         <img
-                            src='/e1.png'
+                            src='/e1.avif'
                             alt='slider'
 
                             className='object-contain p-2'
@@ -75,7 +75,7 @@ const SliderTwo = () => {
                     </div>
                     <div>
                         <img
-                            src='/e2.png'
+                            src='/e2.avif'
                             alt='slider'
 
                             className='object-contain p-2'
@@ -83,7 +83,7 @@ const SliderTwo = () => {
                     </div>
                     <div>
                         <img
-                            src='/e3.png'
+                            src='/e3.avif'
                             alt='slider'
 
                             className='object-contain p-2'
@@ -91,7 +91,7 @@ const SliderTwo = () => {
                     </div>
                     <div>
                         <img
-                             src='/e4.png'
+                             src='/e4.avif'
                             alt='slider'
 
                              className='object-contain p-2'
@@ -99,7 +99,7 @@ const SliderTwo = () => {
                     </div>
                     <div>
                         <img
-                            src='/e5.png'
+                            src='/e5.avif'
                             alt='slider'
 
                             className='object-contain p-2'
@@ -107,7 +107,7 @@ const SliderTwo = () => {
                     </div>
                     <div>
                         <img
-                            src='/e6.png'
+                            src='/e6.avif'
                             alt='slider'
 
                             className='object-contain p-2'
@@ -115,7 +115,7 @@ const SliderTwo = () => {
                     </div>
                     <div>
                         <img
-                            src='/e7.png'
+                            src='/e7.avif'
                             alt='slider'
 
                             className='object-contain p-2'
@@ -124,7 +124,7 @@ const SliderTwo = () => {
 
                     <div>
                         <img
-                            src='/e1.png'
+                            src='/e1.avif'
                             alt='slider'
 
                             className='object-contain p-2'
@@ -132,7 +132,7 @@ const SliderTwo = () => {
                     </div>
                     <div>
                         <img
-                            src='/e2.png'
+                            src='/e2.avif'
                             alt='slider'
 
                             className='object-contain p-2'
@@ -140,7 +140,7 @@ const SliderTwo = () => {
                     </div>
                     <div>
                         <img
-                            src='/e3.png'
+                            src='/e3.avif'
                             alt='slider'
 
                             className='object-contain p-2'
