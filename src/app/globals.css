@@ -479,8 +479,22 @@ li {
   }
 
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
   .why{
     margin-top: 160px;
+  }
+  .hero_btn2{
+    margin-top: 12px;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .why{
+    margin-top: 260px;
+  }
+  .hero_btn2{
+    margin-top: 12px;
+    margin-left: 5px;
   }
 }
