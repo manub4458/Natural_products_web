@@ -21,7 +21,12 @@ const Landing = () => {
  <Navbar/>
  </div> */}
 
- <Navbar/>
+<div className='nav'>
+<Navbar/>
+  </div>
+  <div className='mobnav'>
+    <Mobnav />
+  </div>
  {/* <div className="select-none landing_conatiner h-screen ">
 		
 				<div className="absolute  lg:hidden w-screen  md:inline-block">

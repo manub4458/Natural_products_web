@@ -4,15 +4,15 @@ import React from 'react'
 const Section2 = () => {
   return (
    <>
-   <div className='flex justify-around mt-20 bg-[#fafafa]'>
+   <div className='flex justify-around mt-20 main2 bg-[#fafafa]'>
 
-   <div className='mt-6'>
+   <div className='mt-6 main3'>
        <h2 className='armen text-xl font-semibold'>
         CREATE SKINCARE PRODUCTS
        </h2>
-   <p className='mt-6 armen'>
-   Explore our range of 70+ skincare must-haves, ready to make your brand  <br />
-   shine. From  silky serums to gentle cleansers, we have got your skincare <br /> needs covered.
+   <p className='mt-6 armen p2'>
+   Explore our range of 70+ skincare must-haves, ready to make your brand  <br className='br' />
+   shine. From  silky serums to gentle cleansers, we have got your skincare <br  className='br' /> needs covered.
    </p>
    <div className='flex gap-x-1'>
                    {/* <p className='py-4 text-[#89d038]'>
@@ -34,12 +34,13 @@ const Section2 = () => {
                     /> */}
                    </div>
       </div>
-      <div>
+      <div className=''>
         <img 
         src='/skincare.avif'
         alt='Beauty'
         width={350}
         height={200}
+        className='main7'
         />
       </div>
 

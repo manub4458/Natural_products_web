@@ -30,10 +30,10 @@ const Footer = () => {
             </h4>
            </div>
    
-   <div className='flex justify-around mt-6 '>
+   <div className='flex foot2 justify-around mt-6 '>
       <div className=''>
         <Element name='section3'>
-        <button className='leading-8 bg-white p-10 h-[200px] w-[350px]  px-20 rounded-md  hover:text-[#db5f7a] hover:transition-all '>
+        <button className='leading-8 bg-white p-10 h-[200px] w-[350px] foot  px-20 rounded-md  hover:text-[#db5f7a] hover:transition-all '>
            <div className='flex gap-x-5'>
            <img 
             src='/phone.avif'
@@ -54,7 +54,7 @@ const Footer = () => {
       </div>
 
       <div className=''>
-        <button className='leading-8 bg-white p-10 h-[200px] w-[350px]   px-16 rounded-xl hover:text-[#db5f7a] 
+        <button className='leading-8 bg-white p-10 h-[200px] w-[350px] foot   px-16 rounded-xl hover:text-[#db5f7a] 
         
         '
         onClick={openContactForm}
@@ -78,7 +78,7 @@ const Footer = () => {
 
 
       <div className=''>
-        <button className=' bg-white p-10 h-[200px] w-[350px]  px-20 rounded-md hover:text-[#db5f7a]   '>
+        <button className=' bg-white p-10 h-[200px] w-[350px]  px-20 foot rounded-md hover:text-[#db5f7a]   '>
            <div className='flex gap-x-5'>
            <img 
             src='/address.avif'

@@ -4,15 +4,15 @@ import React from 'react'
 const Section4 = () => {
   return (
    <>
-   <div className='flex justify-around mt-20 bg-[#fafafa]'>
+   <div className='flex justify-around mt-20 main2 bg-[#fafafa]'>
 
-   <div className='mt-6'>
+   <div className='mt-6 main3'>
        <h2 className='armen text-xl font-semibold'>
         HIGH MARGINS
        </h2>
-   <p className='mt-6 armen'>
-   Enjoy high profit margins with our transparent pricing model. We  <br />
-   only charge 20-30% of the products cost, ensuring maximum  <br /> returns for your brand.
+   <p className='mt-6 armen p2'>
+   Enjoy high profit margins with our transparent pricing model. We  <br className='br' />
+   only charge 20-30% of the products cost, ensuring maximum  <br className='br' /> returns for your brand.
    </p>
    <Link href='/Contact' >
    <div className='flex gap-x-2 '>
@@ -40,6 +40,7 @@ const Section4 = () => {
         alt='Beauty'
         width={350}
         height={200}
+        className='main7'
         />
       </div>
 

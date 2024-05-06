@@ -112,9 +112,9 @@ console.log(formData)
  };
 
   return (
-    <div className="fixed inset-0 flex items-center h-fit justify-center">
+    <div className="fixed inset-0 flex items-center h-fit justify-center ">
       <div className="fixed inset-0 bg-black opacity-50"></div>
-      <div className="bg-white p-8 rounded-lg shadow-lg z-10 fixed right-0 top-0 h-full xl:w-[40vw] lg:w-[58vw]  transform transition-transform duration-300 ease-in-out translate-x-full sm:translate-x-0">
+      <div className="bg-white p-8 rounded-lg shadow-lg z-10 fixed right-0 top-0 h-full xl:w-[40vw] lg:w-[58vw]  form transform transition-transform duration-300 ease-in-out translate-x-full sm:translate-x-0">
         <button className="absolute top-2 right-2 text-gray-500" onClick={onClose}>
           <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
@@ -225,7 +225,7 @@ console.log(formData)
 
                 </form> */}
 
-<form className='space-y-8 lg:space-y-4  xl:space-y-6 my-10 lg:mt-0 max-w-[60vw]  lg:max-w-[60vw] '
+<form className='space-y-8 lg:space-y-4   xl:space-y-6 my-10 lg:mt-0 max-w-[60vw]  lg:max-w-[60vw] '
                 onSubmit={handleSubmit}
                 data-netlify="true"
                 >
@@ -472,7 +472,7 @@ console.log(formData)
                             name='enquiry'
                             placeholder='Enquiry'
                             co
-                            className='outline-black border lg:inline-block xl:hidden border-gray-700 rounded-md w-[530px] p-3 px-4'
+                            className='outline-black border br lg:inline-block xl:hidden border-gray-700 rounded-md w-[530px] p-3 px-4'
                             onChange={handleInputChange} 
                             required
                         />

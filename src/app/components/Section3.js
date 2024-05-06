@@ -3,24 +3,25 @@ import Link from "next/link"
 const Section3 = () => {
   return (
     <>
-      <div className='flex justify-around mt-20 bg-[#fafafa]'>
+      <div className='flex justify-around mt-20 main4 bg-[#fafafa]'>
 
-        <div>
+        <div className=''>
           <img
             src='/haircare.avif'
             alt='Beauty'
             width={350}
             height={200}
+            className='main7'
           />
         </div>
 
-        <div className='mt-6'>
-          <h2 className='armen font-semibold text-xl'>
+        <div className='mt-6 main5 main8'>
+          <h2 className='armen font-semibold  text-xl'>
             CREATE HAIRCARE PRODUCTS
           </h2>
-          <p className='mt-6 armen'>
-            Explore our collection of 25+ haircare essentials to elevate your <br />
-            brand. From moisturizing shampoos to revitalizing Hair masks, <br /> we have got you covered.
+          <p className='mt-6 armen p2'>
+            Explore our collection of 25+ haircare essentials to elevate your <br className='br' />
+            brand. From moisturizing shampoos to revitalizing Hair masks, <br className='br' /> we have got you covered.
 
           </p>
           

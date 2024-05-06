@@ -53,16 +53,17 @@ const Hero = () => {
 
     return (
         <>
-            <div className='flex justify-evenly mb-20 h-[60vh] my-20 items-center '>
-                <div className=' '>
-                    <h1 className=' justify-center text-3xl font-serif leading-10 armen'>
-                        <span className='text-[#db5f7a] font-semibold'>  CREATE SKIN AND HAIR <br /> CARE BRAND </span>
+            <div className='flex hero  justify-evenly  max-h-[60vh] my-20 h-full  items-center '>
+                <div className='hero1'>
+                    <h1 className=' justify-center text-3xl font-serif leading-10 armen h1' >
+                        <span className='text-[#db5f7a] font-semibold'>  CREATE SKIN AND HAIR <br className='br' /> CARE BRAND </span>
                     </h1>
-                    <h3 className='w-[28vw]  leading-8 pt-4 text-lg armen'>
+                    <h3 className='w-[28vw] p1  leading-8 pt-4 text-lg armen'>
                     Step into our world of skincare and haircare wonders! Unleash your brands beauty with us—its where fun meets fabulous. Lets make your dream products a reality!
                              </h3>
                    <form 
                    onSubmit={handleSubmitt}
+                   className='input1'
                    >
                    <input
                         type='email'
@@ -98,7 +99,7 @@ const Hero = () => {
                 </div> */}
                    {/* <Carousels /> */}
                   {/* <Swipers /> */}
-                  <div className='w-[40vw]'>
+                  <div className=' w-[40vw] hero2'>
                   <Sliders />
                   </div>
                  

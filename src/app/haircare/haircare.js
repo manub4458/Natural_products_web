@@ -2,14 +2,18 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import { Link } from "react-scroll";
+import Mobnav from '../components/Mobnav';
 
 const Haircare = () => {
   return (
     <>
     <div className=' bg-[url("/haircare.avif")] bg-cover hairbg bg-opacity-20 bg-no-repeat  h-[100vh] '>
-    <div className='text-white'>
-    <Navbar />
-    </div>
+    <div className='nav text-white'>
+<Navbar/>
+  </div>
+  <div className='mobnav'>
+    <Mobnav />
+  </div>
 
     <div className=' ml-20 mt-8'>
         <h1 className='text-white font-semibold  armen text-3xl'>

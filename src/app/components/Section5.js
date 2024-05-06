@@ -3,7 +3,7 @@ import Link from "next/link"
 const Section5 = () => {
   return (
     <>
-      <div className='flex justify-around mt-20 bg-[#fafafa]'>
+      <div className='flex justify-around mt-20 main4 bg-[#fafafa]'>
 
         <div>
           <img
@@ -11,17 +11,18 @@ const Section5 = () => {
             alt='Beauty'
             width={350}
             height={200}
+            className='main7'
           />
         </div>
 
-        <div className='mt-6'>
+        <div className='mt-6 main5 main8'>
           <h2 className='armen font-semibold text-xl '>
           Your Complete Branding Partner 
           </h2>
-          <p className='mt-6 armen'>
-          Leave the hassle behind—our one-stop-shop solution covers it all. From <br />
-           sourcing bottles to designing labels, we haveve got you covered. No prior <br />
-            materials needed, just bring your brand vision, and we will handle <br /> the rest.
+          <p className='mt-6 armen p2'>
+          Leave the hassle behind—our one-stop-shop solution covers it all. From <br className='br' />
+           sourcing bottles to designing labels, we haveve got you covered. No prior <br className='br' />
+            materials needed, just bring your brand vision, and we will handle <br className='br' /> the rest.
           </p>
           <Link href='/Contact'>
             <div className='flex gap-x-2 '>
