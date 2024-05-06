@@ -63,7 +63,7 @@ const Hero = () => {
                              </h3>
                    <form 
                    onSubmit={handleSubmitt}
-                   className='input1'
+                   className='input1 hero_main'
                    >
                    <input
                         type='email'
@@ -71,9 +71,9 @@ const Hero = () => {
                         value={email}
                         placeholder='Your email Address..'
                         onChange={(e) => {setEmail(e.target.value); handleChange(e);}}
-                        className=' outline-none focus:border armen focus:border-blue-300 rounded-md  py-3 px-8 mt-4 bg-slate-100/20 '
+                        className=' outline-none focus:border armen focus:border-blue-300 rounded-md hero_btn  py-3 px-8 mt-4 bg-slate-100/20 '
                     />
-                    <button className='py-3 px-8 ml-4 bg-[#db5f7a] text-white rounded-md armen'
+                    <button className='py-3 px-8 hero_btn ml-4 bg-[#db5f7a] text-white rounded-md armen'
                   onClick={handleButtonClick}
                   >
                         Get started

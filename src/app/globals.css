@@ -402,14 +402,35 @@ li {
 
 @media screen and (max-width: 580px) {
 
-
+  .hero{
+    margin-top: 25px ;
+    margin-bottom:25px;
+  }
+  .hero_btn{
+    padding: 6px 16px;
+  }
+  .hero_main{
+    margin: 6px 24px;
+  }
+  .why{
+    margin-top: 15px ;
+    margin-bottom:15px;
+  
+  }
   .main2{
     display: flex;
     flex-wrap: wrap;
+    margin: 8px 24px;
+    /* margin-bottom: 8px; */
   }
   .main4{
     display: flex;
     flex-wrap: wrap-reverse;
+    margin: 8px 24px;
+  }
+  .client{
+    margin: 40px 40px;
+   
   }
 
 

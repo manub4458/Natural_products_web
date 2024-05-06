@@ -56,7 +56,7 @@ const Customer = () => {
                         </div>
                     </div> */}
 
-                    <div className="  mx-[40px] my-20 bg-[#fafafa]">
+                    <div className="  mx-[40px] my-20 client bg-[#fafafa]">
                       <SliderThree />
                     </div>
     </div>

@@ -4,7 +4,7 @@ const Whyus = () => {
   return (
    <>
    
-   <div className='my-8 bg-[#fafafa] '>
+   <div className='my-8 why bg-[#fafafa] '>
     <h1 className='text-center font-semibold armen text-2xl py-4'>
           Why Us?
     </h1>
