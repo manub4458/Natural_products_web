@@ -54,7 +54,7 @@ className='rounded-lg '
         X
       </button>
       <img
-        className="absolute top-[7%] left-20 sm:left-8 "
+        className="absolute top-[7%] left-24 sm:left-8 "
         src="/logo2.avif"
         width="40"
         alt="Photo"
@@ -73,14 +73,15 @@ className='rounded-lg '
         <li className="my-[2.5rem] tracking-[-1px] text-xl text-[#cbcbcb] ">
           <Link href="/">Home</Link>
         </li>
+        
+        <li className="my-[2.5rem] tracking-[-1px] text-xl text-[#cbcbcb] ">
+        <Link href="/skincare">Skincare</Link>
+        </li>
+        <li className="my-[2.5rem] tracking-[-1px] text-xl text-[#cbcbcb] ">
+          <Link href="/haircare">Haircare</Link>
+        </li>
         <li className="my-[2.5rem] tracking-[-1px] text-xl text-[#cbcbcb] ">
           <Link href="/Contact">Contact Us</Link>
-        </li>
-        <li className="my-[2.5rem] tracking-[-1px] text-xl text-[#cbcbcb] ">
-        <Link href="/About">About Us</Link>
-        </li>
-        <li className="my-[2.5rem] tracking-[-1px] text-xl text-[#cbcbcb] ">
-          <Link href="/">Blog</Link>
         </li>
         
       </ul>

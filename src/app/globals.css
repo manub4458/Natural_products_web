@@ -479,3 +479,8 @@ li {
   }
 
 }
+@media screen and (max-width: 380px) {
+  .why{
+    margin-top: 160px;
+  }
+}
