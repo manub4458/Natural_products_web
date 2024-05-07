@@ -2,7 +2,8 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import { Link } from 'react-scroll'
-import Mobnav from '../components/Mobnav'
+import Mobnav from './Mobnav'
+// import Mobnav from '../components/Mobnav'
 const Skincare = () => {
   return (
     <>
