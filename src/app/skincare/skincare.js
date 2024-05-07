@@ -6,7 +6,7 @@ import Mobnav from '../components/Mobnav'
 const Skincare = () => {
   return (
     <>
-    <div className=' bg-[url("/skincare.avif")] bg-cover bg-opacity-20 bg-no-repeat h-[100vh]  '>
+    <div className=' bg-[url("/skincare.avif")] bg-cover head bg-opacity-20 bg-no-repeat h-[100vh]  '>
     <div className='nav text-white'>
 <Navbar/>
   </div>
@@ -14,14 +14,14 @@ const Skincare = () => {
     <Mobnav />
   </div>
 
-    <div className=' ml-20 mt-4'>
+    <div className=' ml-20 mt-4 hair'>
         <h1 className='text-white font-semibold  armen text-3xl'>
         Private Label Skincare Products
         </h1>
     </div>
 
-    <div className='ml-20 mt-8 lg:mt-2'>
-        <p className='text-white w-[35vw] leading-7 text-lg armen'>
+    <div className='ml-20 mt-8 lg:mt-2 hair'>
+        <p className='text-white w-[35vw] hair_p leading-7 text-lg armen'>
         Welcome to NatureExpert Ayurvedic Pvt Ltd! We specialize in crafting 
          a wide array of skincare essentials, including gel face washes, face packs,
           creams, serums, toners, and more. With over 50 unique products in our skincare range,

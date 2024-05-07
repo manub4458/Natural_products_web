@@ -7,22 +7,22 @@ import Mobnav from '../components/Mobnav';
 const Haircare = () => {
   return (
     <>
-    <div className=' bg-[url("/haircare.avif")] bg-cover hairbg bg-opacity-20 bg-no-repeat  h-[100vh] '>
+    <div className=' bg-[url("/haircare.avif")] bg-cover hairbg bg-opacity-20 bg-no-repeat head  h-[100vh] '>
     <div className='nav text-white'>
 <Navbar/>
   </div>
-  <div className='mobnav'>
+  <div className='mobnav text-white'>
     <Mobnav />
   </div>
 
-    <div className=' ml-20 mt-8'>
+    <div className=' ml-20 mt-8 hair'>
         <h1 className='text-white font-semibold  armen text-3xl'>
         Private Label Haircare Products
         </h1>
     </div>
 
-    <div className='ml-20 mt-8'>
-        <p className='text-white w-[35vw] leading-7 text-lg armen'>
+    <div className='ml-20 mt-8 hair'>
+        <p className='text-white w-[35vw] leading-7 hair_p text-lg armen'>
         Welcome to NatureExpert Ayurvedic Pvt Ltd, where we specialize in manufacturing and white labeling a wide range of haircare products. From nourishing shampoos to luxurious hair oils, rejuvenating serums, and hydrating conditioners, we offer over 15 different SKUs in our haircare range. Our products are crafted with care, blending the goodness of nature and the wisdom of Ayurveda to promote healthy, beautiful hair for all.
         </p>
     </div>

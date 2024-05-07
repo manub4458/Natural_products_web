@@ -484,6 +484,33 @@ li {
   .email{
     width: 250px;
   }
+  .head{
+    height: 70vh;
+  }
+  .hair{
+    margin-top: 26px;
+    width: 100%;
+   
+    margin-left: auto;
+    text-align: center;
+  }
+  .hair_p{
+    width: 100%;
+    padding: 8px 16px;
+  }
+  .hair_explore{
+    margin: auto 16px;
+    padding-bottom: 12px;
+    padding-top: 36px;
+
+  }
+  .hair_explore_p{
+    margin: auto 16px;
+  }
+  .hair_dive{
+    width: 100%;
+    
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -525,6 +552,32 @@ li {
   .email{
     width: 250px;
   }
+  .head{
+    height: 100vh;
+  }
+  .hair{
+    margin-top: 16px;
+    width: 100%;
+    margin-left: auto;
+    text-align: center;
+  }
+  .hair_p{
+    width: 100%;
+    padding: 8px 16px;
+  }
+  .hair_explore{
+    margin: auto 16px;
+    padding-bottom: 12px;
+    padding-top: 36px;
+
+  }
+  .hair_explore_p{
+    margin: auto 16px;
+  }
+  .hair_dive{
+    width: 100%;
+    
+  }
 }
 
 @media screen and (max-width: 330px) {
@@ -552,5 +605,31 @@ li {
   }
   .email{
     width: 250px;
+  }
+  .head{
+    height: 100vh;
+  }
+  .hair{
+    margin-top: 16px;
+    width: 100%;
+    margin-left: auto;
+    text-align: center;
+  }
+  .hair_p{
+    width: 100%;
+    padding: 8px 16px;
+  }
+  .hair_explore{
+    margin: auto 16px;
+    padding-bottom: 12px;
+    padding-top: 36px;
+
+  }
+  .hair_explore_p{
+    margin: auto 16px;
+  }
+  .hair_dive{
+    width: 100%;
+    
   }
 }

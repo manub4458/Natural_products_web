@@ -21,7 +21,7 @@ const Dive = () => {
 
      <div>
      {isVisible && (
-        <div className="mt-4 leading-8  w-[70vw] border armen border-[#dfc9ce] rounded-md p-6">
+        <div className="mt-4 leading-8  w-[70vw] hair_dive  border armen border-[#dfc9ce] rounded-md p-6">
          
          <li>
          1.	<strong>Shampoo:</strong> Cleanses the scalp and hair, removing dirt, oil, and impurities for a fresh and clean feel.

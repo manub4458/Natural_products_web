@@ -21,7 +21,7 @@ const Dive = () => {
 
                <div>
                   {isVisible && (
-                     <div className="mt-4 leading-8 w-[70vw] border armen border-[#dfc9ce] rounded-md p-6 ">
+                     <div className="mt-4 leading-8 w-[70vw] hair_dive border armen border-[#dfc9ce] rounded-md p-6 ">
 
                         <li>
                            1.	<strong>Cleansing Milk:</strong> Gently removes dirt and makeup while nourishing the skin with natural ingredients like milk and herbs.
